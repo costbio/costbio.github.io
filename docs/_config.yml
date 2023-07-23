@@ -29,7 +29,8 @@ twitter_username: onursercin
 github_username: costbio
 
 # Build settings
-remote_theme: LeNPaul/academic
+# remote_theme: LeNPaul/academic
+remote_theme: daviddmc/daviddmc.github.io
 plugins:
   - jekyll-feed
 
