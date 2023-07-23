@@ -1,6 +1,6 @@
 ---
 layout: page
-title: HOME 
+title: Home
 permalink: /home/
 ---
 This is a simple message.
