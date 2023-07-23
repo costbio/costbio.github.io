@@ -5,6 +5,14 @@
 layout: home
 ---
 
-Welcome to the website of Computational Structural Biology Research Group! We are part of the Computational Systems Biology Research Group at Gebze Technical University, Faculty of Engineering, Department of Bioengineering. 
+Welcome to the website of Computational Structural Biology Research Group! 
 
-Our research focuses on application of computational biology methods on structures of proteins with biomedical importance. We are particularly interested in the **Major Histocompatibility Complex**, **ERK5 Kinase**, **Major Facilitator Superfamily**, and **Nuclear Receptors**. 
+We are part of the **Computational Systems Biology Research Group** at <a href="https://www.gtu.edu.tr">Gebze Technical University</a>, <a href="https://www.gtu.edu.tr/kategori/41/3/display.aspx?languageId=1">Faculty of Engineering</a>, <a href="https://www.gtu.edu.tr/kategori/307/3/biyomuhendislik.aspx">Department of Bioengineering</a>. 
+
+Our research focuses on application of computational biology/bioinformatics methods on structures of proteins with biomedical importance. 
+
+We are particularly interested in the **Major Histocompatibility Complex**, **ERK5 Kinase**, **Major Facilitator Superfamily**, and **Nuclear Receptors**. 
+
+We occasionally build **software for scientific research** as well.
+
+Feel free to <a href="mailto:osercinoglu@gtu.edu.tr">contact</a> Dr. Serçinoğlu if you're interested in collaborating with us.
