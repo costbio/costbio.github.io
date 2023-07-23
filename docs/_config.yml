@@ -29,7 +29,7 @@ twitter_username: onursercin
 github_username: costbio
 
 # Build settings
-remote_theme: lab_pages
+remote_theme: LeNPaul/academic
 plugins:
   - jekyll-feed
 
