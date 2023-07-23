@@ -29,7 +29,7 @@ twitter_username: onursercin
 github_username: costbio
 
 # Build settings
-theme: minima
+theme: lab_pages
 plugins:
   - jekyll-feed
 
