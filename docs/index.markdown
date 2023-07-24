@@ -15,4 +15,4 @@ We are particularly interested in the **Major Histocompatibility Complex**, **ER
 
 We occasionally build **software for scientific research** as well.
 
-Feel free to <a href="mailto:osercinoglu@gtu.edu.tr">contact</a> the Principal Investigator Dr. Serçinoğlu if you're interested in collaborating with us.
+Feel free to <a href="mailto:osercinoglu@gtu.edu.tr">contact</a> the Principal Investigator Dr. Onur Serçinoğlu if you're interested in collaborating with us.
