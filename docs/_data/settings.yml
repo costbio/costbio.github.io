@@ -6,20 +6,19 @@ menu:
 - {name: 'contact', url: '/contact'}
 
 people:
-- {name: 'Primary Investigator', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
-- {name: 'Lab Technician', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lab-technician.jpg', url: 'lab-technician'}
-- {name: 'Graduate Student', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
+- {name: 'Onur Serçinoğlu', title: 'Principal Investigator', department: 'Bioengineering', institution: 'Gebze Technical University', 
+  institution_address: 'Gebze Technical University, Gebze, Kocaeli, Türkiye', phone: '(000) 000-0000', email: 'osercinoglu@gtu.edu.tr', office: 'BYM110', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
+- {name: 'İlayda Erdoğan', title: 'Graduate Student', department: 'Bioengineering', institution: 'Gebze Technical University', institution_address: '', phone: '(000) 000-0000', email: 'ierdogan2021@gtu.edu.tr', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
 
 courses:
-- {name: 'Vector Calculus', url: 'vector-calculus'}
-- {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
-- {name: 'Stellar Structures', url: 'stellar-structures'}
+- {name: 'Bioengineering Fundamentals', url: 'https://bsb511.github.io'}
+- {name: 'Computational Biomolecular Dynamics', url: 'computational-biomolecular-dynamics'}
 
 social:
-- {icon: 'github', link: 'https://github.com/LeNPaul'}
-- {icon: 'twitter', link: 'https://twitter.com/paululele'}
-- {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
+- {icon: 'github', link: 'https://github.com/costbio'}
+- {icon: 'twitter', link: 'https://twitter.com/onursercin'}
 
 contacts:
-- {name: 'Dr. Academia', title: 'Professor', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/contact.jpg'}
+- {name: 'Dr. Onur', title: 'Assistant Professor', 
+  department: 'Bioengineering', institution: 'Gebze Technical University', 
+  institution_address: 'Gebze Technical University, Bioengineering Department, Gebze, Kocaeli, Türkiye', phone: '(000) 000-0000', email: 'osercinoglu@gtu.edu.tr', office: 'Bioengineering Building BYM010', image: 'assets/img/contact.jpg'}
