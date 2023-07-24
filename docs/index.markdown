@@ -11,7 +11,7 @@ We are part of the <a href="https://www.systemsbiology.info.tr">**Computational 
 
 Our research focuses on application of computational biology/bioinformatics methods on structures of proteins with biomedical importance. 
 
-We are particularly interested in the **Major Histocompatibility Complex**, **ERK5 Kinase**, **Major Facilitator Superfamily**, and **Nuclear Receptors**. 
+We are particularly interested in the **Major Histocompatibility Complex**, **ERK5**, **NorA**, and **Androgen Receptor**. 
 
 We occasionally build **software for scientific research** as well.
 
