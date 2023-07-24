@@ -7,7 +7,7 @@ layout: home
 
 Welcome to the website of Computational Structural Biology Research Group! 
 
-We are part of the **Computational Systems Biology Research Group** at <a href="https://www.gtu.edu.tr">Gebze Technical University</a>, <a href="https://www.gtu.edu.tr/kategori/41/3/display.aspx?languageId=1">Faculty of Engineering</a>, <a href="https://www.gtu.edu.tr/kategori/307/3/biyomuhendislik.aspx">Department of Bioengineering</a>. 
+We are part of the <a href="https://www.systemsbiology.info.tr">**Computational Systems Biology Research Group**</a> at <a href="https://www.gtu.edu.tr">Gebze Technical University</a>, <a href="https://www.gtu.edu.tr/kategori/41/3/display.aspx?languageId=1">Faculty of Engineering</a>, <a href="https://www.gtu.edu.tr/kategori/307/3/biyomuhendislik.aspx">Department of Bioengineering</a>. 
 
 Our research focuses on application of computational biology/bioinformatics methods on structures of proteins with biomedical importance. 
 
