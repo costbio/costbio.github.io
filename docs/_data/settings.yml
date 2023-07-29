@@ -15,7 +15,7 @@ people:
 - {name: 'Şuara Şahin', title: 'Msc Student', department: 'Bioengineering', 
   institution: 'Gebze Technical University', institution_address: '', phone: '(000) 000-0000', 
   email: 's.sahin2022@gtu.edu.tr', office: 'BYM010', image: 'assets/img/suara-sahin.jpg', url: 'suara-sahin'}
-- {name: 'Tuba Okur', title: 'Msc Student', department: 'Bioengineering', 
+- {name: 'Tuba Okur', title: 'Research Assistant and Msc Student', department: 'Bioengineering', 
   institution: 'Gebze Technical University', institution_address: '', phone: '(000) 000-0000', 
   email: 'tubaokur@gtu.edu.tr', office: 'BYM010', image: 'assets/img/suara-sahin.jpg', url: 'tuba-okur'}
 - {name: 'Evren Atak', title: 'Msc Student', department: 'Bioengineering', 
