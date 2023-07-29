@@ -23,10 +23,13 @@ people:
   email: 'e.atak2022@gtu.edu.tr', office: '', image: 'assets/img/evren-atak.jpg', url: 'evren-atak'}
 - {name: 'Alperen Tanrıkulu', title: 'Msc Student', department: 'Bioengineering', 
   institution: 'Gebze Technical University', institution_address: '', phone: '(000) 000-0000', 
-  email: 'e.atak2022@gtu.edu.tr', office: '', image: 'assets/img/alperen-tanrıkulu.jpg', url: 'alperen-tanrikulu'}
+  email: 'a.tanrikulu2023@gtu.edu.tr', office: '', image: 'assets/img/alperen-tanrıkulu.jpg', url: 'alperen-tanrikulu'}
 - {name: 'B. Olida Reisoğlu', title: 'Msc Student', department: 'Bioengineering', 
   institution: 'Gebze Technical University', institution_address: '', phone: '(000) 000-0000', 
-  email: 'e.atak2022@gtu.edu.tr', office: '', image: 'assets/img/alperen-tanrıkulu.jpg', url: 'olida-reisoglu'}
+  email: 'b.reisoglu2023@gtu.edu.tr', office: '', image: 'assets/img/alperen-tanrıkulu.jpg', url: 'olida-reisoglu'}
+- {name: 'Emre Taha Çevik', title: 'Bsc Student - Graduation Project', department: 'Bioengineering', 
+  institution: 'Gebze Technical University', institution_address: '', phone: '(000) 000-0000', 
+  email: 'e.cevik2019@gtu.edu.tr', office: '', image: 'assets/img/emre-taha-cevik.jpg', url: 'emre-cevik'}
 
 alumni:
 - {name: 'Esra Büşra Işık', title: 'MSc Student', department: 'Bioengineering',
