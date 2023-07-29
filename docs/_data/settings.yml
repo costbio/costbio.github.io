@@ -7,13 +7,32 @@ menu:
 
 people:
 - {name: 'Onur Serçinoğlu', title: 'Principal Investigator', department: 'Bioengineering', institution: 'Gebze Technical University', 
-  institution_address: 'Gebze Technical University, Gebze, Kocaeli, Türkiye', phone: '(000) 000-0000', email: 'osercinoglu@gtu.edu.tr', office: 'BYM110', image: 'assets/img/onur-sercinoglu.jpg', url: 'onur-sercinoglu'}
-- {name: 'İlayda Erdoğan', title: 'Msc Student', department: 'Bioengineering', 
-  institution: 'Gebze Technical University', institution_address: '', phone: '(000) 000-0000', email: 'i.erdogan2021@gtu.edu.tr', office: 'Science Building 505', image: 'assets/img/ilayda-erdogan.jpg', url: 'ilayda-erdogan'}
+  institution_address: 'Gebze Technical University, Gebze, Kocaeli, Türkiye', phone: '(000) 000-0000', 
+  email: 'osercinoglu@gtu.edu.tr', office: 'BYM110', image: 'assets/img/onur-sercinoglu.jpg', url: 'onur-sercinoglu'}
+- {name: 'İlayda Erdoğan', title: 'Msc Student', stage: "department: 'Bioengineering', 
+  institution: 'Gebze Technical University', institution_address: '', phone: '(000) 000-0000', 
+  email: 'i.erdogan2021@gtu.edu.tr', office: 'BYM010', image: 'assets/img/ilayda-erdogan.jpg', url: 'ilayda-erdogan'}
 - {name: 'Şuara Şahin', title: 'Msc Student', department: 'Bioengineering', 
-  institution: 'Gebze Technical University', institution_address: '', phone: '(000) 000-0000', email: 's.sahin2022@gtu.edu.tr', office: 'Science Building 505', image: 'assets/img/suara-sahin.jpg', url: 'suara-sahin'}
+  institution: 'Gebze Technical University', institution_address: '', phone: '(000) 000-0000', 
+  email: 's.sahin2022@gtu.edu.tr', office: 'BYM010', image: 'assets/img/suara-sahin.jpg', url: 'suara-sahin'}
+- {name: 'Tuba Okur', title: 'Msc Student', department: 'Bioengineering', 
+  institution: 'Gebze Technical University', institution_address: '', phone: '(000) 000-0000', 
+  email: 'tubaokur@gtu.edu.tr', office: 'BYM010', image: 'assets/img/suara-sahin.jpg', url: 'tuba-okur'}
 - {name: 'Evren Atak', title: 'Msc Student', department: 'Bioengineering', 
-  institution: 'Gebze Technical University', institution_address: '', phone: '(000) 000-0000', email: 'e.atak2022@gtu.edu.tr', office: 'Science Building 505', image: 'assets/img/evren-atak.jpg', url: 'evren-atak'}
+  institution: 'Gebze Technical University', institution_address: '', phone: '(000) 000-0000', 
+  email: 'e.atak2022@gtu.edu.tr', office: '', image: 'assets/img/evren-atak.jpg', url: 'evren-atak'}
+- {name: 'Alperen Tanrıkulu', title: 'Msc Student', department: 'Bioengineering', 
+  institution: 'Gebze Technical University', institution_address: '', phone: '(000) 000-0000', 
+  email: 'e.atak2022@gtu.edu.tr', office: '', image: 'assets/img/alperen-tanrıkulu.jpg', url: 'alperen-tanrikulu'}
+- {name: 'B. Olida Reisoğlu', title: 'Msc Student', department: 'Bioengineering', 
+  institution: 'Gebze Technical University', institution_address: '', phone: '(000) 000-0000', 
+  email: 'e.atak2022@gtu.edu.tr', office: '', image: 'assets/img/alperen-tanrıkulu.jpg', url: 'olida-reisoglu'}
+
+alumni:
+- {name: 'Esra Büşra Işık', title: 'MSc Student', department: 'Bioengineering',
+  department: 'Bioengineering', institution: 'Gebze Technical University', 
+  institution_address: 'Gebze Technical University, Bioengineering Department, Gebze, Kocaeli, Türkiye', phone: '(000) 000-0000',
+  email: "e.isik2020@gtu.edu.tr", office: 'Bioengineering Building BYM010', image: 'assets/img/esra-busra-isik.jpg', url: 'esra-busra-isik'}
 
 courses:
 - {name: 'Bioengineering Fundamentals', url: 'https://bsb511.github.io'}
