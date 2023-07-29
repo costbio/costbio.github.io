@@ -9,7 +9,7 @@ people:
 - {name: 'Onur Serçinoğlu', title: 'Principal Investigator', department: 'Bioengineering', institution: 'Gebze Technical University', 
   institution_address: 'Gebze Technical University, Gebze, Kocaeli, Türkiye', phone: '(000) 000-0000', 
   email: 'osercinoglu@gtu.edu.tr', office: 'BYM110', image: 'assets/img/onur-sercinoglu.jpg', url: 'onur-sercinoglu'}
-- {name: 'İlayda Erdoğan', title: 'Msc Student', stage: "department: 'Bioengineering', 
+- {name: 'İlayda Erdoğan', title: 'Msc Student', department: 'Bioengineering', 
   institution: 'Gebze Technical University', institution_address: '', phone: '(000) 000-0000', 
   email: 'i.erdogan2021@gtu.edu.tr', office: 'BYM010', image: 'assets/img/ilayda-erdogan.jpg', url: 'ilayda-erdogan'}
 - {name: 'Şuara Şahin', title: 'Msc Student', department: 'Bioengineering', 
