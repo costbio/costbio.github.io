@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% for pub in site.data.publications.featured %}
+{% for pub in site.data.publications.index %}
 <div class="row">
     <p><strong>{{ pub.authors }}</strong> ({{ pub.year }}). <em>{{ pub.name }}</em>. <em>{{ pub.journal }}</em>. <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a></p>
 </div>
