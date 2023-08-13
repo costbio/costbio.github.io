@@ -9,6 +9,6 @@ Welcome to the official website of the Computational Structural Biology Research
 
 Our group is dedicated to the application of computational biology, bioinformatics, and drug design methods to study the structures of proteins with biomedical importance. By understanding how these proteins work, we aim to facilitate the development of novel applications such as drug discovery and immunotherapy.
 
-Our current research interests include the Major Histocompatibility Complex, ERK5, NorA, and Androgen Receptor. Our group also develops software for scientific research purposes to aid in our computational biology and drug design research.
+Our current research interests include structure-function characterizations of MHC and NorA, and discovery of inhibitors of ERK5 and Androgen Receptor. Additionally, we collaborate with experimental groups conducting wet-lab research on protein structures to enable synergistic theory-experiment partnerships. Our group also develops software for scientific research purposes to aid in our computational biology and drug design research.
 
 Please feel free to contact our Principal Investigator, Dr. Onur Serçinoğlu, at <a href="mailto:osercinoglu@gtu.edu.tr">osercinoglu AT gtu.edu.tr</a> if you are interested in collaborating with us.
