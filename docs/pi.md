@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: home
 title: "CV"
 ---
 # Onur Serçinoğlu, PhD
