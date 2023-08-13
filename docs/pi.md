@@ -1,6 +1,6 @@
 ---
-layout: home
-title: "CV"
+layout: default
+title: "Principal Investigator"
 ---
 # Onur Serçinoğlu, PhD
 
