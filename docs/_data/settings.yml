@@ -36,6 +36,10 @@ alumni:
   department: 'Bioengineering', institution: 'Gebze Technical University', 
   institution_address: 'Gebze Technical University, Bioengineering Department, Gebze, Kocaeli, Türkiye', phone: '(000) 000-0000',
   email: "e.isik2020@gtu.edu.tr", office: 'Bioengineering Building BYM010', image: 'assets/img/esra-busra-isik.jpg', url: 'esra-busra-isik'}
+- {name: 'Ayşe Sıla Kantarçeken', title: 'Internship',
+  department: 'Genetics and Bioengineering', institution: 'Izmir University of Economics', 
+  institution_address: '', phone: '(000) 000-0000',
+  email: "", office: '', image: ', url: ''}
 
 courses:
 - {name: 'Bioengineering Fundamentals', url: 'https://bsb511.github.io'}
