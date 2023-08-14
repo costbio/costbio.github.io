@@ -39,7 +39,7 @@ alumni:
 - {name: 'Ayşe Sıla Kantarçeken', title: 'Internship',
   department: 'Genetics and Bioengineering', institution: 'Izmir University of Economics', 
   institution_address: '', phone: '(000) 000-0000',
-  email: "", office: '', image: ', url: ''}
+  email: "", office: '', image: '', url: ''}
 
 courses:
 - {name: 'Bioengineering Fundamentals', url: 'https://bsb511.github.io'}
