@@ -21,16 +21,23 @@
 title: Computational Structural Biology Research Group at GTU
 email: osercinoglu@gtu.edu.tr
 description: >- # this means to ignore newlines until "baseurl:"
-domain: costbio.github.io  
+#domain: costbio.github.io  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://costbio.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: onursercin
 github_username: costbio
 
 # Build settings
+markdown: kramdown
+
+# Uncomment if testing locally
+#theme: academic-jekyll-theme
+
+# Uncomment if on github pages
 remote_theme: LeNPaul/academic
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Lab contact info
 pi_name: Onur Serçinoğlu
@@ -41,12 +48,6 @@ lab_city: Gebze
 lab_state: Kocaeli
 lab_country: Türkiye
 lab_zipcode: 41400
-
-# Build settings
-markdown: kramdown
-#theme: minima
-plugins:
-  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
