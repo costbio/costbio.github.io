@@ -1,20 +1,19 @@
-featured:
-- {'name': 'Non-apoptotic cell death induction via sapogenin based supramolecular particles', 
-'authors': 'Üner, G., Bedir, E., Serçinoğlu, O., Ballar Kırmızıbayrak, P.',
-'year': '2022', 
-'journal': 'Scientific Reports', 'doi': '10.1038/s41598-022-17977-4', 
-'url': 'https://doi.org/10.1038/s41598-022-17977-4'}
-- {'name': 'Unraveling the Allosteric Communication Mechanisms in T-Cell Receptor–Peptide-Loaded Major Histocompatibility Complex Dynamics Using Molecular Dynamics Simulations: An Approach Based on Dynamic Cross Correlation Maps and Residue Interaction Energy Calculations',
-'authors': 'Bingöl, E. N., Serçinoğlu, O., Ozbek, P.', 'journal': 'J. Chem. Inf. Model.', 
-'year': '2021',
-'doi': '10.1021/acs.jcim.1c00338', 'url': 'https://doi.org/10.1021/acs.jcim.1c00338'}
-- {'name': 'In silico and in vitro assessment of androgen receptor antagonists',
-'authors': 'Serçinoğlu, O., Bereketoglu, C., Olsson P. E., Pradhan, A.',
-'year': '2021',
-'journal': 'Comput. Biol. Chem.', 'doi': '10.1016/j.compbiolchem.2021.107490',
-'url': 'https://doi.org/10.1016/j.compbiolchem.2021.107490'}
-
 index:
+- {'name': 'Polymorphism in F pocket affects peptide selection and stability of type 1 diabetes‐associated HLA‐B39 allotypes', 
+'authors': 'Amarajeewa, A. W. P., Özcan, A., Mukhtiar, A., Ren, X., Wang, Q., Ozbek, P., Garstka, M. A. G., Serçinoğlu, O.',
+'year': '2024', 
+'journal': 'Eur. J. Immunol.', 'doi': '10.1002/eji.202350683', 
+'url': 'https://doi.org/10.1002/eji.202350683'}
+- {'name': 'Unraveling the ligand specificity and promiscuity of the Staphylococcus aureus NorA efflux pump: a computational study', 
+'authors': 'Işık, E. B., Serçinoğlu, O.',
+'year': '2024', 
+'journal': 'J. Biomol. Struct. Dyn.', 'doi': '10.1080/07391102.2024.2326670', 
+'url': 'https://doi.org/10.1080/07391102.2024.2326670'}
+- {'name': 'In Vitro, In Vivo, and In Silico Analysis of Pyraclostrobin and Cyprodinil and Their Mixture Reveal New Targets and Signaling Mechanisms', 
+'authors': 'Kim, Y., Bereketoglu, C., Serçinoğlu, O., Pradhan, A.,',
+'year': '2024', 
+'journal': 'Chem. Res. Toxicol.', 'doi': '10.1021/acs.chemrestox.3c00371', 
+'url': 'https://doi.org/10.1021/acs.chemrestox.3c00371'}
 - {'name': 'Non-apoptotic cell death induction via sapogenin based supramolecular particles',
 'authors': 'Üner, G., Bedir, E., Serçinoğlu, O., Ballar Kırmızıbayrak, P.',
 'year': '2022',
@@ -59,6 +58,6 @@ index:
 'year': '2017',
 'doi': '10.1080/07391102.2017.1295884', 'url': 'https://doi.org/10.1080/07391102.2017.1295884'}
 - {'name': 'A computational docking study on the pH dependence of peptide binding to HLA-B27 sub-types differentially associated with ankylosing spondylitis',
-'authors': 'Serçinoğlu, O., Yoluk, O., Ozbek, P.', 'journal': 'J. Comput. Aided Mol. Des. 30, 775–791',
+'authors': 'Serçinoğlu, O., Özcan, G., Kutlu Kabaş, Z., Ozbek, P.', 'journal': 'J. Comput. Aided Mol. Des. 30, 775–791',
 'year': '2016',
 'doi': '10.1007/s10822-016-9934-z', 'url': 'https://doi.org/10.1007/s10822-016-9934-z'}

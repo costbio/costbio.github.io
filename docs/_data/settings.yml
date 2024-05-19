@@ -2,21 +2,23 @@ menu:
 - {name: 'people', url: '/people'}
 - {name: 'publications', url: '/publications'}
 - {name: 'courses', url: '/courses'}
-- {name: 'PI', url: '/pi'}
+- {name: 'PI', url: 'https://www.linkedin.com/in/onursercinoglu/'}
 - {name: 'contact', url: '/contact'}
 
 people:
 - {name: 'Onur Serçinoğlu', title: 'Principal Investigator', department: 'Bioengineering', institution: 'Gebze Technical University', 
   institution_address: 'Gebze Technical University, Gebze, Kocaeli, Türkiye', phone: '(000) 000-0000', 
-  email: 'osercinoglu A T gtu.edu.tr', office: 'BYM110', image: 'assets/img/onur-sercinoglu.jpg', url: 'onur-sercinoglu'}
+  email: 'osercinoglu A T gtu.edu.tr', office: 'BYM110', image: "https://drive.google.com/thumbnail?id=1o0oOsEvGvGzWK_Y2jHh7mBa-UVtqIxVH", url: 'onur-sercinoglu',
+  linkedin: 'onursercinoglu'}
 
 - {name: 'Tuğba Emine Eke', title: 'Research Assistant and Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University', institution_address: '', phone: '(000) 000-0000', 
-  email: 'e.tugba A T gtu.edu.tr', office: '', image: 'assets/img/tugba-emine-eke.jpg', url: 'tugba-emine-eke'}
+  email: 'e.tugba A T gtu.edu.tr', office: '', image: 'https://drive.google.com/thumbnail?id=1lgaGG9KifFH1pqLGnq5Phwc-ukJ8jaUL', url: 'tugba-emine-eke',
+  linkedin: 'onur-sercinoglu'}
 
 - {name: 'Tuba Okur', title: 'Research Assistant and Msc Student', department: 'Bioengineering',  program: 'Bioengineering',
   institution: 'Gebze Technical University', institution_address: '', phone: '(000) 000-0000', 
-  email: 'tubaokurgtu.edu.tr', office: 'BYM010', image: 'assets/img/tuba-okur.jpg', url: 'tuba-okur'}
+  email: 'tubaokurgtu.edu.tr', office: 'BYM010', image: 'https://drive.google.com/thumbnail?id=1apLMEDoLCwZtiY2WPpU430YvAWTZqldl', url: 'tuba-okur'}
 
 - {name: 'Şuara Şahin', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University', institution_address: '', phone: '(000) 000-0000', 
@@ -26,9 +28,9 @@ people:
   institution: 'Gebze Technical University', institution_address: '', phone: '(000) 000-0000', 
   email: 'e.atak2022 A T gtu.edu.tr', office: '', image: 'assets/img/evren-atak.jpg', url: 'evren-atak'}
 
-- {name: 'Alperen Tanrıkulu', title: 'Msc Student', department: 'Bioengineering',  program: 'Bioinformatics and Systems Biology',
+- {name: 'Alper Tanrıkulu', title: 'Msc Student', department: 'Bioengineering',  program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University', institution_address: '', phone: '(000) 000-0000', 
-  email: 'a.tanrikulu2023 A T gtu.edu.tr', office: '', image: 'assets/img/alperen-tanrıkulu.jpg', url: 'alperen-tanrikulu'}
+  email: 'a.tanrikulu2023 A T gtu.edu.tr', office: '', image: 'assets/img/alper-tanrıkulu.jpg', url: 'alperen-tanrikulu'}
 
 - {name: 'Figen Aycil', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University', institution_address: '', phone: '(000) 000-0000', 
