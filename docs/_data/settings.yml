@@ -22,7 +22,7 @@ people:
 
 - {name: 'Şuara Şahin', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University', institution_address: '', phone: '(000) 000-0000', 
-  email: 's.sahin2022 A T gtu.edu.tr', office: 'BYM010', image: 'assets/img/suara-sahin.jpg', url: 'suara-sahin'}
+  email: 's.sahin2022 A T gtu.edu.tr', office: 'BYM010', image: 'https://drive.google.com/thumbnail?id=1tzkbYQtWZL8305Y8KYvc8r7rNkxfNnB6', url: 'suara-sahin'}
 
 - {name: 'Evren Atak', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University', institution_address: '', phone: '(000) 000-0000', 
