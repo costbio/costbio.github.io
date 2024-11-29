@@ -10,6 +10,8 @@
   </div>
   <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
     {% for item in site.data.settings.menu %}
+      <img src="{{ site.github.url }}/assets/images/{{ item.icon }}.png" alt="Logo" class="me-3", width="125px", height="125px" >
+      <br><br>
       <a class="me-3 py-2 text-decoration-none" href="{{ item.url }}">{{ item.name }}</a>
     {% endfor %}
   </nav>
