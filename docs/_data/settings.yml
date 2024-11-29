@@ -1,9 +1,9 @@
 menu:
-- {name: 'people', url: '/people'}
-- {name: 'publications', url: '/publications'}
-- {name: 'courses', url: '/courses'}
-- {name: 'PI', url: 'https://www.linkedin.com/in/onursercinoglu/'}
-- {name: 'contact', url: '/contact'}
+- {name: 'people', url: '/people', icon: 'boat'}
+- {name: 'publications', url: '/publications', icon: 'books'}
+- {name: 'courses', url: '/courses', icon: 'book'}
+- {name: 'PI', url: 'https://www.linkedin.com/in/onursercinoglu/', icon: 'viking-helmet'}
+- {name: 'contact', url: '/contact', icon: 'horn'}
 
 people:
 - {name: 'Onur Serçinoğlu', title: 'Principal Investigator', department: 'Bioengineering', institution: 'Gebze Technical University', 
