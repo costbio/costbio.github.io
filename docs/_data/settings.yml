@@ -101,7 +101,7 @@ people_alumni:
   institution: 'Gebze Technical University', institution_address: '',  
   email: 'b.kurtoglu2019 A T gtu.edu.tr',  url: 'beyza-kurtoglu'}
 
- {name: 'Elif Bengü Kızılay', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering', 
+- {name: 'Elif Bengü Kızılay', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering', 
   institution: 'Gebze Technical University', institution_address: '',  
   email: ' A T gtu.edu.tr',  url: 'elif-bengu-kizilay'}
 
