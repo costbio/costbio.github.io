@@ -10,9 +10,12 @@
   </div>
   <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
     {% for item in site.data.settings.menu %}
-      <img src="{{ site.github.url }}/assets/images/{{ item.icon }}.png" alt="Logo" class="me-3", width="100px", height="100px" >
-      <br><br>
-      <a class="d-block py-2 text-decoration-none" href="{{ item.url }}">{{ item.name }}</a>
+      <div class="text-center me-3">
+        <a href="{{ item.url }}" class="d-block">
+          <img src="{{ site.github.url }}/assets/images/{{ item.icon }}.png" alt="{{ item.name }}" width="100" height="100" class="mb-2">
+        </a>
+        <a class="py-2 text-decoration-none" href="{{ item.url }}">{{ item.name }}</a>
+      </div>
     {% endfor %}
   </nav>
 </header>
