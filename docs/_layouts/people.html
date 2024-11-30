@@ -9,7 +9,7 @@ layout: default
 <div class="row g-5 mb-5">
   {% for person in site.data.settings.people_personnel %}
   <div class="col-md-4"> <!-- Change col-md-6 to col-md-4 for three columns -->
-      {{ person.name }}, {{ person.title }}
+      <b>{{ person.name }}</b>, {{ person.title }}
       <p>Email: {{ person.email }}</p>
       <!-- Uncomment if you want to include a link to more information -->
       <!-- <p><a href="{{ site.github.url }}/people/{{ person.url }}">More info</a></p> -->
@@ -21,7 +21,7 @@ layout: default
 <div class="row g-5 mb-5">
   {% for person in site.data.settings.people_graduate %}
   <div class="col-md-4"> <!-- Change col-md-6 to col-md-4 for three columns -->
-      {{ person.name }}, {{ person.title }}
+      <b>{{ person.name }}</b>, {{ person.title }}
       <p>Email: {{ person.email }}</p>
       <!-- Uncomment if you want to include a link to more information -->
       <!-- <p><a href="{{ site.github.url }}/people/{{ person.url }}">More info</a></p> -->
@@ -33,7 +33,7 @@ layout: default
 <div class="row g-5 mb-5">
   {% for person in site.data.settings.people_undergraduate %}
   <div class="col-md-4"> <!-- Change col-md-6 to col-md-4 for three columns -->
-      {{ person.name }}, {{ person.title }}
+      <b>{{ person.name }}</b>, {{ person.title }}
       <!-- Uncomment if you want to include a link to more information -->
       <!-- <p><a href="{{ site.github.url }}/people/{{ person.url }}">More info</a></p> -->
   </div>
@@ -44,7 +44,7 @@ layout: default
 <div class="row g-5 mb-5">
   {% for person in site.data.settings.people_alumni %}
   <div class="col-md-4"> <!-- Change col-md-6 to col-md-4 for three columns -->
-      {{ person.name }}, {{ person.title }}
+      <b>{{ person.name }}</b>, {{ person.title }}
       <!-- Uncomment if you want to include a link to more information -->
       <!-- <p><a href="{{ site.github.url }}/people/{{ person.url }}">More info</a></p> -->
   </div>
