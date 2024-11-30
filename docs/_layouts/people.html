@@ -5,37 +5,52 @@ layout: default
 {{ content }}
 
 <h3 class="fw-bold border-bottom pb-3 mb-5">Current Members</h3>
-{% for person in site.data.settings.people %}
+<h4 class="fw-bold pb-3 mb-5">Personnel</h4>
 <div class="row g-5 mb-5">
-  <div class="col-md-6">
-    <h5>{{ person.name }}</h5>
-    <p>Email: {{ person.email }}</p>
-    <p><b>{{ person.title }}</b></p>
-    <!--
-    <p><a href="{{ site.github.url }}/people/{{ person.url }}">More info</a></p>
-    -->
+  {% for person in site.data.settings.people_personnel %}
+  <div class="col-md-4"> <!-- Change col-md-6 to col-md-4 for three columns -->
+      <h5>{{ person.name }}</h5>
+      <p>Email: {{ person.email }}</p>
+      <p><b>{{ person.title }}</b></p>
+      <!-- Uncomment if you want to include a link to more information -->
+      <!-- <p><a href="{{ site.github.url }}/people/{{ person.url }}">More info</a></p> -->
   </div>
-  <div class="col-md-6">
-    <img src="{{ person.image }}" alt="Contact", width="150px">
-  </div>
+  {% endfor %}
 </div>
-{% endfor %}
 
-<h3 class="fw-bold border-bottom pb-3 mb-5">Alumni</h3>
-{% for person in site.data.settings.alumni %}
+<h4 class="fw-bold pb-3 mb-5">Graduate Students</h4>
 <div class="row g-5 mb-5">
-  <div class="col-md-6">
-    <h5>{{ person.name }}</h5>
-    <p>Email: {{ person.email }}</p>
-    <p><b>{{ person.title }}</b></p>
-    <!--
-    <p><a href="{{ site.github.url }}/people/{{ person.url }}">More info</a></p>
-    -->
+  {% for person in site.data.settings.people_graduate %}
+  <div class="col-md-4"> <!-- Change col-md-6 to col-md-4 for three columns -->
+      <h5>{{ person.name }}</h5>
+      <p>Email: {{ person.email }}</p>
+      <p><b>{{ person.title }}</b></p>
+      <!-- Uncomment if you want to include a link to more information -->
+      <!-- <p><a href="{{ site.github.url }}/people/{{ person.url }}">More info</a></p> -->
   </div>
-  <div class="col-md-6">
-    <!--
-    <img src="{{ site.github.url }}/{{ person.image }}" alt="Contact" width="100%">
-  -->
-  </div>
+  {% endfor %}
 </div>
-{% endfor %}
+
+<h4 class="fw-bold pb-3 mb-5">Undergraduate Students</h4>
+<div class="row g-5 mb-5">
+  {% for person in site.data.settings.people_undergraduate %}
+  <div class="col-md-4"> <!-- Change col-md-6 to col-md-4 for three columns -->
+      <h5>{{ person.name }}</h5>
+      <p><b>{{ person.title }}</b></p>
+      <!-- Uncomment if you want to include a link to more information -->
+      <!-- <p><a href="{{ site.github.url }}/people/{{ person.url }}">More info</a></p> -->
+  </div>
+  {% endfor %}
+</div>
+
+<h4 class="fw-bold pb-3 mb-5">Alumni</h4>
+<div class="row g-5 mb-5">
+  {% for person in site.data.settings.people_alumni %}
+  <div class="col-md-4"> <!-- Change col-md-6 to col-md-4 for three columns -->
+      <h5>{{ person.name }}</h5>
+      <p><b>{{ person.title }}</b></p>
+      <!-- Uncomment if you want to include a link to more information -->
+      <!-- <p><a href="{{ site.github.url }}/people/{{ person.url }}">More info</a></p> -->
+  </div>
+  {% endfor %}
+</div>
