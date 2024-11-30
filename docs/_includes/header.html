@@ -8,12 +8,11 @@
       <span>{{ site.description }}</span>
     </a>
   </div>
-  <nav class="d-inline-flex flex-column align-items-center mt-2 mt-md-0 ms-md-auto">
-      {% for item in site.data.settings.menu %}
-        <div class="text-center">
-          <img src="{{ site.github.url }}/assets/images/{{ item.icon }}.png" alt="Logo" class="me-3" width="100px" height="100px">
-          <a class="py-2 text-decoration-none" href="{{ item.url }}">{{ item.name }}</a>
-        </div>
-      {% endfor %}
+  <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+    {% for item in site.data.settings.menu %}
+      <img src="{{ site.github.url }}/assets/images/{{ item.icon }}.png" alt="Logo" class="me-3", width="100px", height="100px" >
+      <br><br>
+      <a class="d-block py-2 text-decoration-none" href="{{ item.url }}">{{ item.name }}</a>
+    {% endfor %}
   </nav>
 </header>
