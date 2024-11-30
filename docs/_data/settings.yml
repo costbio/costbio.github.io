@@ -13,17 +13,16 @@ people_personnel:
 
 - {name: 'Tuba Okur', title: 'Research Assistant and Msc Student', department: 'Bioengineering',  program: 'Bioengineering',
   institution: 'Gebze Technical University', institution_address: '',  
-  email: 'tubaokurgtu.edu.tr', office: 'BYM010', url: 'tuba-okur'}
+  email: 'tubaokur A T gtu.edu.tr', office: 'BYM010', url: 'tuba-okur'}
 
 - {name: 'Tuğba Emine Eke', title: 'Research Assistant and Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University', institution_address: '', 
-  email: 'e.tugba A T gtu.edu.tr', office: 'BYM010', url: 'tugba-emine-eke',
-  linkedin: 'onur-sercinoglu'}
+  email: 'e.tugba A T gtu.edu.tr', office: 'BYM010', url: 'tugba-emine-eke'}
 
 people_graduate:
 - {name: 'Şevval Dik', title: 'PhD Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University', institution_address: '', 
-  email: ' A T gtu.edu.tr', url: 'sevval-dik'}
+  email: 'sevvaldik A T gtu.edu.tr', url: 'sevval-dik'}
 
 - {name: 'Şuara Şahin', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University', institution_address: '', 
@@ -39,7 +38,7 @@ people_graduate:
 
 - {name: 'Öyküm Önel', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University', institution_address: '',  
-  email: 'b.reisoglu2023 A T gtu.edu.tr', url: 'oykum-onel'}
+  email: 'o.onel2019 A T gtu.edu.tr', url: 'oykum-onel'}
 
 - {name: 'Alper Tanrıkulu', title: 'Msc Student', department: 'Bioengineering',  program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University', institution_address: '', 
@@ -63,6 +62,30 @@ people_undergraduate:
   institution: 'Gebze Technical University', institution_address: '', 
   email: '', url: 'ayca-emanetoglu'}
 
+- {name: 'Özge Timür', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering', 
+  institution: 'Gebze Technical University', institution_address: '', 
+  email: '', url: 'ozge-timur'}
+
+- {name: 'Edanur Çatalca', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering', 
+  institution: 'Gebze Technical University', institution_address: '', 
+  email: '', url: 'edanur-catalca'}
+
+- {name: 'Şevval Öztürk', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering', 
+  institution: 'Gebze Technical University', institution_address: '', 
+  email: '', url: 'sevval-ozturk'}
+
+- {name: 'Ali Batuhan Çifer', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering', 
+  institution: 'Gebze Technical University', institution_address: '', 
+  email: '', url: 'ali-batuhan-cifer'}
+
+- {name: 'Zehra İlayda Özdemir', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering', 
+  institution: 'Gebze Technical University', institution_address: '', 
+  email: '', url: 'zehra-ilayda-ozdemir'}
+
+- {name: 'Begüm Topaloğlu', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering', 
+  institution: 'Gebze Technical University', institution_address: '', 
+  email: '', url: 'begum-topaloglu'}
+
 people_alumni:
 - {name: 'Esra Büşra Işık', title: 'MSc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University', 
@@ -77,6 +100,10 @@ people_alumni:
 - {name: 'Beyza Kurtoğlu', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering', 
   institution: 'Gebze Technical University', institution_address: '',  
   email: 'b.kurtoglu2019 A T gtu.edu.tr',  url: 'beyza-kurtoglu'}
+
+ {name: 'Elif Bengü Kızılay', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering', 
+  institution: 'Gebze Technical University', institution_address: '',  
+  email: ' A T gtu.edu.tr',  url: 'elif-bengu-kizilay'}
 
 - {name: 'Ayşe Sıla Kantarçeken', title: 'Internship Student',
   department: 'Genetics and Bioengineering', institution: 'Izmir University of Economics', 
