@@ -109,6 +109,14 @@ people_alumni:
   institution: 'Gebze Technical University', institution_address: '',  
   email: ' A T gtu.edu.tr',  url: 'elif-bengu-kizilay'}
 
+- {name: 'Muhammet Eren Uluğ', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering', 
+  institution: 'Gebze Technical University', institution_address: '',  
+  email: ' A T gtu.edu.tr',  url: 'eren-ulug'}
+
+- {name: 'Ceylin Karatepe', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering', 
+  institution: 'Gebze Technical University', institution_address: '',  
+  email: ' A T gtu.edu.tr',  url: 'ceylin-karatepe'}
+
 - {name: 'Ayşe Sıla Kantarçeken', title: 'Internship Student',
   department: 'Genetics and Bioengineering', institution: 'Izmir University of Economics', 
   institution_address: '', 
