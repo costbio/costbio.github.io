@@ -86,6 +86,10 @@ people_undergraduate:
   institution: 'Gebze Technical University', institution_address: '', 
   email: '', url: 'begum-topaloglu'}
 
+- {name: 'Selin Tunçarslan', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering', 
+  institution: 'Gebze Technical University', institution_address: '', 
+  email: '', url: 'selin-tuncarslan'}
+
 people_alumni:
 - {name: 'Esra Büşra Işık', title: 'MSc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University', 
