@@ -11,4 +11,30 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
   <script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
   <script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>
+  <script>
+    const pdbCodes = ['8RBV', '3L3X', '7LO8'];
+    
+    // Function to select a random PDB code
+    function getRandomPDB() {
+        const randomIndex = Math.floor(Math.random() * pdbCodes.length);
+        return pdbCodes[randomIndex];
+    }
+
+    // Update the viewer with a random PDB code
+    function updateViewer() {
+        const randomPDB = getRandomPDB();
+        const viewer = document.getElementById('pdbViewer');
+        viewer.setAttribute('data-pdb', randomPDB);
+        
+        // Initialize 3Dmol.js viewer
+        const viewerInstance = $3Dmol.createViewer(viewer, { backgroundColor: "white" });
+        viewerInstance.addModel(randomPDB, 'pdb');
+        viewerInstance.setStyle({ cartoon: { color: 'spectrum' } });
+        viewerInstance.zoomTo();
+        viewerInstance.render();
+    }
+
+    // Call the function to update the viewer on page load
+    window.onload = updateViewer;
+</script>
 </head>
