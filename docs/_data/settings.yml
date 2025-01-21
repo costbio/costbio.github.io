@@ -123,8 +123,10 @@ people_alumni:
   email: "", url: ''}
 
 courses:
-- {name: 'Bioengineering Fundamentals', url: 'https://bsb511.github.io'}
-- {name: 'Computational Biomolecular Dynamics', url: 'computational-biomolecular-dynamics'}
+- {name: 'Bioengineering Fundamentals', url: 'https://abl.gtu.edu.tr/ects/?duzey=ucuncu&modul=ders_bilgi_formu&dno=BSB%20511&tip=yukseklisans&bolum=2201&dil=tr'}
+- {name: 'Computational Biomolecular Dynamics', url: 'https://abl.gtu.edu.tr/ects/?duzey=ucuncu&modul=ders_bilgi_formu&dno=BSB%20533&tip=yukseklisans&bolum=2202&dil=en'}
+- {name: 'Introduction to Bioinformatics', url: 'https://abl.gtu.edu.tr/ects/?dil=en&modul=ders_bilgi_formu&bolum=221&tip=lisans&duzey=ucuncu&dno=BYM%20451'}
+- {name: 'Structural Bioinformatics and Computational Drug Design', url: 'https://abl.gtu.edu.tr/ects/?duzey=ucuncu&modul=ders_bilgi_formu&dno=BYM%20466&bolum=221&tip=lisans&dil=en'}
 
 social:
 - {icon: 'github', link: 'https://github.com/costbio'}
