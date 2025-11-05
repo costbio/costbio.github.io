@@ -4,6 +4,11 @@ index:
 'year': '2025', 
 'journal': 'Encyclopedia of Bioinformatics and Computational Biology (Second Edition), Volume 6, Pages 159-171', 'doi': '10.1016/B978-0-323-95502-7.00261-X', 
 'url': 'https://doi.org/10.1016/B978-0-323-95502-7.00261-X'}
+- {'name': 'Molecular Dynamics Simulations in Drug Discovery', 
+'authors': 'Serçinoğlu, O., Wezen, X. C., Fatima, A.',
+'year': '2025', 
+'journal': 'Encyclopedia of Bioinformatics and Computational Biology (Second Edition), Volume 6, Pages 645-656', 'doi': '10.1016/B978-0-323-95502-7.00273-6', 
+'url': 'https://doi.org/10.1016/B978-0-323-95502-7.00273-6'}
 - {'name': 'Drug Repurposing and Multi-Target Therapies', 
 'authors': 'Şahin, Ş., Önel, Ö., Kızılay, E. B., Serçinoğlu, O.',
 'year': '2024', 
