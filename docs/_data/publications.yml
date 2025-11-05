@@ -1,4 +1,14 @@
 index:
+- {'name': 'Computational Protein Engineering', 
+'authors': 'Okur, T., Serçinoğlu, O.',
+'year': '2025', 
+'journal': 'Encyclopedia of Bioinformatics and Computational Biology (Second Edition), Volume 6, Pages 159-171', 'doi': '10.1016/B978-0-323-95502-7.00261-X', 
+'url': 'https://doi.org/10.1016/B978-0-323-95502-7.00261-X'}
+- {'name': 'Drug Repurposing and Multi-Target Therapies', 
+'authors': 'Şahin, Ş., Önel, Ö., Kızılay, E. B., Serçinoğlu, O.',
+'year': '2024', 
+'journal': 'Encyclopedia of Bioinformatics and Computational Biology (Second Edition)', 'doi': '10.1016/B978-0-323-95502-7.00238-4', 
+'url': 'https://doi.org/10.1016/B978-0-323-95502-7.00238-4'}
 - {'name': 'Polymorphism in F pocket affects peptide selection and stability of type 1 diabetes‐associated HLA‐B39 allotypes', 
 'authors': 'Amarajeewa, A. W. P., Özcan, A., Mukhtiar, A., Ren, X., Wang, Q., Ozbek, P., Garstka, M. A. G., Serçinoğlu, O.',
 'year': '2024', 
