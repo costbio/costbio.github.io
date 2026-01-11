@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div class="row g-4">
+  {% for tool in page.tools %}
+  <div class="col-md-6 col-lg-4">
+    <div class="card h-100" style="border: 2px solid #333; background-color: #f8f9fa;">
+      <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <i class="{{ tool.icon }} fa-2x me-3" style="color: #495057;"></i>
+          <h5 class="card-title mb-0 fw-bold">{{ tool.name }}</h5>
+        </div>
+        <p class="card-text">{{ tool.description }}</p>
+        {% if tool.features %}
+        <ul class="small mb-3">
+          {% for feature in tool.features %}
+          <li>{{ feature }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+        <div class="mt-auto">
+          {% if tool.github %}
+          <a href="{{ tool.github }}" class="btn btn-sm btn-outline-dark me-2" target="_blank">
+            <i class="fab fa-github me-1"></i>GitHub
+          </a>
+          {% endif %}
+          {% if tool.web %}
+          <a href="{{ tool.web }}" class="btn btn-sm btn-outline-dark" target="_blank">
+            <i class="fas fa-globe me-1"></i>Web App
+          </a>
+          {% endif %}
+          {% if tool.docs %}
+          <a href="{{ tool.docs }}" class="btn btn-sm btn-outline-dark" target="_blank">
+            <i class="fas fa-book me-1"></i>Docs
+          </a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

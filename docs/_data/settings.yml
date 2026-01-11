@@ -1,7 +1,7 @@
 menu:
 - {name: 'people', url: '/people', icon: 'boat'}
 - {name: 'publications', url: '/publications', icon: 'books'}
-- {name: 'courses', url: '/courses', icon: 'book'}
+- {name: 'tools', url: '/tools', icon: 'bow'}
 - {name: 'PI', url: '/pi', icon: 'viking-helmet'}
 - {name: 'contact', url: '/contact', icon: 'horn'}
 
@@ -125,12 +125,6 @@ people_alumni:
   department: 'Genetics and Bioengineering', institution: 'Izmir University of Economics', 
   institution_address: '', 
   email: "", url: ''}
-
-courses:
-- {name: 'Bioengineering Fundamentals', url: 'https://abl.gtu.edu.tr/ects/?duzey=ucuncu&modul=ders_bilgi_formu&dno=BSB%20511&tip=yukseklisans&bolum=2201&dil=tr'}
-- {name: 'Computational Biomolecular Dynamics', url: 'https://abl.gtu.edu.tr/ects/?duzey=ucuncu&modul=ders_bilgi_formu&dno=BSB%20533&tip=yukseklisans&bolum=2202&dil=en'}
-- {name: 'Introduction to Bioinformatics', url: 'https://abl.gtu.edu.tr/ects/?dil=en&modul=ders_bilgi_formu&bolum=221&tip=lisans&duzey=ucuncu&dno=BYM%20451'}
-- {name: 'Structural Bioinformatics and Computational Drug Design', url: 'https://abl.gtu.edu.tr/ects/?duzey=ucuncu&modul=ders_bilgi_formu&dno=BYM%20466&bolum=221&tip=lisans&dil=en'}
 
 social:
 - {icon: 'github', link: 'https://github.com/costbio'}
