@@ -2,10 +2,172 @@
 layout: default
 ---
 
-{% for pub in site.data.publications.index %}
-<div class="row">
-    <p><strong>{{ pub.authors }}</strong> ({{ pub.year }}). <em>{{ pub.name }}</em>. <em>{{ pub.journal }}</em>. <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a></p>
-</div>
-{% endfor %}
+{{ content }}
 
-<!-- {% include publications.html %}
+<style>
+.pub-category {
+  margin-bottom: 2.5rem;
+}
+.pub-category-header {
+  border-bottom: 2px solid #dee2e6;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.pub-entry {
+  display: flex;
+  border-bottom: 1px solid #e9ecef;
+  padding: 1rem 0;
+}
+.pub-entry:last-child {
+  border-bottom: none;
+}
+.pub-year {
+  min-width: 70px;
+  font-weight: bold;
+  color: #495057;
+  font-size: 1.1rem;
+}
+.pub-content {
+  flex: 1;
+  padding-left: 1rem;
+}
+.pub-title {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  line-height: 1.4;
+}
+.pub-authors {
+  font-style: italic;
+  color: #6c757d;
+  margin-bottom: 0.3rem;
+  font-size: 0.95rem;
+}
+.pub-journal {
+  color: #6c757d;
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+.pub-link a {
+  font-size: 0.85rem;
+}
+</style>
+
+<!-- Immunoinformatics -->
+{% if site.data.publications.immunoinformatics.size > 0 %}
+<div class="pub-category">
+  <h4 class="pub-category-header"><i class="fas fa-shield-virus me-2"></i>Immunoinformatics</h4>
+  {% for pub in site.data.publications.immunoinformatics %}
+  <div class="pub-entry">
+    <div class="pub-year">{{ pub.year }}</div>
+    <div class="pub-content">
+      <div class="pub-title">{{ pub.name }}</div>
+      <div class="pub-authors">{{ pub.authors }}</div>
+      <div class="pub-journal">{{ pub.journal }}</div>
+      {% if pub.url and pub.url != '' %}
+      <div class="pub-link"><a href="{{ pub.url }}" target="_blank"><i class="fas fa-external-link-alt me-1"></i>{% if pub.doi %}{{ pub.doi }}{% else %}View Publication{% endif %}</a></div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- Drug Discovery -->
+{% if site.data.publications.drug_discovery.size > 0 %}
+<div class="pub-category">
+  <h4 class="pub-category-header"><i class="fas fa-pills me-2"></i>Drug Discovery</h4>
+  {% for pub in site.data.publications.drug_discovery %}
+  <div class="pub-entry">
+    <div class="pub-year">{{ pub.year }}</div>
+    <div class="pub-content">
+      <div class="pub-title">{{ pub.name }}</div>
+      <div class="pub-authors">{{ pub.authors }}</div>
+      <div class="pub-journal">{{ pub.journal }}</div>
+      {% if pub.url and pub.url != '' %}
+      <div class="pub-link"><a href="{{ pub.url }}" target="_blank"><i class="fas fa-external-link-alt me-1"></i>{% if pub.doi %}{{ pub.doi }}{% else %}View Publication{% endif %}</a></div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- Protein Engineering -->
+{% if site.data.publications.protein_engineering.size > 0 %}
+<div class="pub-category">
+  <h4 class="pub-category-header"><i class="fas fa-dna me-2"></i>Protein Engineering</h4>
+  {% for pub in site.data.publications.protein_engineering %}
+  <div class="pub-entry">
+    <div class="pub-year">{{ pub.year }}</div>
+    <div class="pub-content">
+      <div class="pub-title">{{ pub.name }}</div>
+      <div class="pub-authors">{{ pub.authors }}</div>
+      <div class="pub-journal">{{ pub.journal }}</div>
+      {% if pub.url and pub.url != '' %}
+      <div class="pub-link"><a href="{{ pub.url }}" target="_blank"><i class="fas fa-external-link-alt me-1"></i>{% if pub.doi %}{{ pub.doi }}{% else %}View Publication{% endif %}</a></div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- Software & Tools -->
+{% if site.data.publications.software_tools.size > 0 %}
+<div class="pub-category">
+  <h4 class="pub-category-header"><i class="fas fa-code me-2"></i>Software & Tools</h4>
+  {% for pub in site.data.publications.software_tools %}
+  <div class="pub-entry">
+    <div class="pub-year">{{ pub.year }}</div>
+    <div class="pub-content">
+      <div class="pub-title">{{ pub.name }}</div>
+      <div class="pub-authors">{{ pub.authors }}</div>
+      <div class="pub-journal">{{ pub.journal }}</div>
+      {% if pub.url and pub.url != '' %}
+      <div class="pub-link"><a href="{{ pub.url }}" target="_blank"><i class="fas fa-external-link-alt me-1"></i>{% if pub.doi %}{{ pub.doi }}{% else %}View Publication{% endif %}</a></div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- Computational Biology -->
+{% if site.data.publications.computational_biology.size > 0 %}
+<div class="pub-category">
+  <h4 class="pub-category-header"><i class="fas fa-laptop-code me-2"></i>Computational Biology</h4>
+  {% for pub in site.data.publications.computational_biology %}
+  <div class="pub-entry">
+    <div class="pub-year">{{ pub.year }}</div>
+    <div class="pub-content">
+      <div class="pub-title">{{ pub.name }}</div>
+      <div class="pub-authors">{{ pub.authors }}</div>
+      <div class="pub-journal">{{ pub.journal }}</div>
+      {% if pub.url and pub.url != '' %}
+      <div class="pub-link"><a href="{{ pub.url }}" target="_blank"><i class="fas fa-external-link-alt me-1"></i>{% if pub.doi %}{{ pub.doi }}{% else %}View Publication{% endif %}</a></div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- Reviews & Book Chapters -->
+{% if site.data.publications.reviews.size > 0 %}
+<div class="pub-category">
+  <h4 class="pub-category-header"><i class="fas fa-book me-2"></i>Reviews & Book Chapters</h4>
+  {% for pub in site.data.publications.reviews %}
+  <div class="pub-entry">
+    <div class="pub-year">{{ pub.year }}</div>
+    <div class="pub-content">
+      <div class="pub-title">{{ pub.name }}</div>
+      <div class="pub-authors">{{ pub.authors }}</div>
+      <div class="pub-journal">{{ pub.journal }}</div>
+      {% if pub.url and pub.url != '' %}
+      <div class="pub-link"><a href="{{ pub.url }}" target="_blank"><i class="fas fa-external-link-alt me-1"></i>{% if pub.doi %}{{ pub.doi }}{% else %}View Publication{% endif %}</a></div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
