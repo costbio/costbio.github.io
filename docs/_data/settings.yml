@@ -131,6 +131,6 @@ social:
 - {icon: 'twitter', link: 'https://twitter.com/onursercin'}
 
 contacts:
-- {name: 'Dr. Onur Serçinoğlu', title: 'Assistant Professor', 
-  department: 'Bioengineering', institution: 'Gebze Technical University', 
-  institution_address: 'Gebze Technical University, Bioengineering Department, Gebze, Kocaeli, Türkiye', phone: '(000) 000-0000', email: 'osercinoglu A T gtu.edu.tr', office: 'Bioengineering Building BYM010', image: 'assets/img/contact.jpg'}
+- {name: 'Dr. Onur Serçinoğlu', title: 'Assistant Professor',
+  department: 'Bioengineering', institution: 'Gebze Technical University',
+  institution_address: 'Gebze Technical University, Bioengineering Department, Gebze, Kocaeli, Türkiye', email: 'osercinoglu A T gtu.edu.tr', office: 'Bioengineering Building BYM010'}
