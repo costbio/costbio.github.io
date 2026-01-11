@@ -2,7 +2,7 @@ menu:
 - {name: 'people', url: '/people', icon: 'boat'}
 - {name: 'publications', url: '/publications', icon: 'books'}
 - {name: 'courses', url: '/courses', icon: 'book'}
-- {name: 'PI', url: 'https://www.linkedin.com/in/onursercinoglu/', icon: 'viking-helmet'}
+- {name: 'PI', url: '/pi', icon: 'viking-helmet'}
 - {name: 'contact', url: '/contact', icon: 'horn'}
 
 people_personnel:

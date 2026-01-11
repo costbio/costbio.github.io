@@ -6,28 +6,104 @@ layout: default
 
 <div class="row g-5 mb-5">
   <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">CV</h3>
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4>Education</h4>
+    <!-- Education -->
+    <div class="row g-4 mb-5">
+      <div class="col-md-3">
+        <h4 class="fw-bold text-primary">Education</h4>
       </div>
-      <div class="col-md-10">
-        {% for section in site.data.cv.education %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
+      <div class="col-md-9">
+        {% for item in site.data.cv.education %}
+          <div class="mb-4">
+            <div class="d-flex justify-content-between align-items-start">
+              <p class="fw-bold mb-1">{{ item.title }}</p>
+              <span class="text-muted small">{{ item.year }}</span>
+            </div>
+            <p class="text-secondary mb-1">{{ item.institution }}</p>
+            {% if item.description %}<p class="small mb-1">{{ item.description }}</p>{% endif %}
+            {% if item.thesis %}<p class="small fst-italic mb-0">Thesis: "{{ item.thesis }}"</p>{% endif %}
+          </div>
         {% endfor %}
       </div>
     </div>
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4>Academic Experience</h4>
+
+    <hr class="mb-5">
+
+    <!-- Work Experience -->
+    <div class="row g-4 mb-5">
+      <div class="col-md-3">
+        <h4 class="fw-bold text-primary">Work Experience</h4>
       </div>
-      <div class="col-md-10">
-        {% for section in site.data.cv.academic-experience %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
+      <div class="col-md-9">
+        {% for item in site.data.cv.academic-experience %}
+          <div class="mb-4">
+            <div class="d-flex justify-content-between align-items-start">
+              <p class="fw-bold mb-1">{{ item.title }}</p>
+              <span class="text-muted small">{{ item.year }}</span>
+            </div>
+            <p class="text-secondary mb-1">{{ item.institution }}{% if item.location %}, {{ item.location }}{% endif %}</p>
+            {% if item.description %}<p class="small mb-1">{{ item.description }}</p>{% endif %}
+            {% if item.courses %}<p class="small mb-0"><em>Courses:</em> {{ item.courses }}</p>{% endif %}
+          </div>
         {% endfor %}
       </div>
     </div>
+
+    <hr class="mb-5">
+
+    <!-- Research Projects -->
+    <div class="row g-4 mb-5">
+      <div class="col-md-3">
+        <h4 class="fw-bold text-primary">Research Projects</h4>
+      </div>
+      <div class="col-md-9">
+        {% for item in site.data.cv.research-projects %}
+          <div class="mb-3">
+            <div class="d-flex justify-content-between align-items-start">
+              <p class="fw-bold mb-1">{{ item.title }}</p>
+              <span class="text-muted small">{{ item.year }}</span>
+            </div>
+            <p class="small mb-0">Funded by: {{ item.funder }} | Role: {{ item.role }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <hr class="mb-5">
+
+    <!-- Skills -->
+    <div class="row g-4 mb-5">
+      <div class="col-md-3">
+        <h4 class="fw-bold text-primary">Skills</h4>
+      </div>
+      <div class="col-md-9">
+        {% for skill in site.data.cv.skills %}
+          <div class="mb-3">
+            <p class="fw-bold mb-1">{{ skill.category }}</p>
+            <p class="small mb-0">
+              {% for item in skill.items %}
+                {{ item }}{% unless forloop.last %} · {% endunless %}
+              {% endfor %}
+            </p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <hr class="mb-5">
+
+    <!-- Awards -->
+    <div class="row g-4 mb-5">
+      <div class="col-md-3">
+        <h4 class="fw-bold text-primary">Awards</h4>
+      </div>
+      <div class="col-md-9">
+        {% for item in site.data.cv.awards %}
+          <div class="mb-2">
+            <p class="mb-0"><span class="fw-bold">{{ item.title }}</span> <span class="text-muted small">({{ item.type }})</span></p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
   </div>
 </div>

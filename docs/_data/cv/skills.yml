@@ -1,0 +1,36 @@
+- category: 'Languages'
+  items:
+    - 'English: advanced level (IELTS 8/9, YÖKDİL 100/100)'
+    - 'German: upper-intermediate/advanced level (B2)'
+
+- category: 'Programming'
+  items:
+    - 'MATLAB (advanced)'
+    - 'Python (advanced)'
+    - 'R (intermediate)'
+    - 'C (beginner)'
+    - 'Javascript (beginner)'
+
+- category: 'Software'
+  items:
+    - 'VMD, NAMD, Gromacs, ProDy'
+    - 'Autodock and Autodock Vina'
+    - 'Rosetta Suite'
+    - 'Git'
+
+- category: 'Computational Biology'
+  items:
+    - 'Scientific programming'
+    - 'Molecular modeling and simulation'
+    - 'Molecular dynamics'
+    - 'Molecular docking'
+    - 'GUI development'
+
+- category: 'Wet Lab'
+  items:
+    - 'Microbiology and light microscopy'
+    - 'Mammalian cell culture'
+    - 'Bioprocess engineering and bioreactor operation'
+    - 'Analytical spectroscopic methods: HPLC, GC-MS'
+    - 'Column chromatography and TLC'
+    - 'Molecular biology methods: electrophoresis, PCR'
