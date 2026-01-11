@@ -1,8 +1,13 @@
 index:
-- {'name': 'Computational Protein Engineering', 
+- {'name': 'Computational Prediction of Immune Epitopes',
+'authors': 'Atak, E., Eke, T. E., Serçinoğlu, O.',
+'year': '2025',
+'journal': 'Encyclopedia of Bioinformatics and Computational Biology (Second Edition), Pages 690-703', 'doi': '10.1016/B978-0-323-95502-7.00268-2',
+'url': 'https://doi.org/10.1016/B978-0-323-95502-7.00268-2'}
+- {'name': 'Computational Protein Engineering',
 'authors': 'Okur, T., Serçinoğlu, O.',
-'year': '2025', 
-'journal': 'Encyclopedia of Bioinformatics and Computational Biology (Second Edition), Volume 6, Pages 159-171', 'doi': '10.1016/B978-0-323-95502-7.00261-X', 
+'year': '2025',
+'journal': 'Encyclopedia of Bioinformatics and Computational Biology (Second Edition), Volume 6, Pages 159-171', 'doi': '10.1016/B978-0-323-95502-7.00261-X',
 'url': 'https://doi.org/10.1016/B978-0-323-95502-7.00261-X'}
 - {'name': 'Molecular Dynamics Simulations in Drug Discovery', 
 'authors': 'Serçinoğlu, O., Wezen, X. C., Fatima, A.',
@@ -34,6 +39,11 @@ index:
 'year': '2022',
 'journal': 'Scientific Reports (2022)', 'doi': '10.1038/s41598-022-17977-4',
 'url': 'https://doi.org/10.1038/s41598-022-17977-4'}
+- {'name': 'Computational approaches used in Anticancer plants',
+'authors': 'Ulucan-Karnak, F., Yilmaz-Sercinoglu, Z., Sercinoglu, O., Ali, A.',
+'year': '2022',
+'journal': 'Plant-Derived Anticancer Drugs in OMICS Era: Biosynthesis, Function and Applications, Apple Academic Press',
+'url': ''}
 - {'name': 'Unraveling the Allosteric Communication Mechanisms in T-Cell Receptor–Peptide-Loaded Major Histocompatibility Complex Dynamics Using Molecular Dynamics Simulations: An Approach Based on Dynamic Cross Correlation Maps and Residue Interaction Energy Calculations',
 'authors': 'Bingöl, E. N., Serçinoğlu, O., Ozbek, P.', 'journal': 'J. Chem. Inf. Model.',
 'year': '2021',
@@ -60,6 +70,11 @@ index:
 'authors': 'Aydınkal, R. M., Serçinoğlu, O., Ozbek, P.', 'journal': 'Nucleic Acids Res. 47, W471–W476',
 'year': '2019',
 'doi': '10.1093/nar/gkz390', 'url': 'https://doi.org/10.1093/nar/gkz390'}
+- {'name': 'In Silico Databases and Tools for Drug Repurposing',
+'authors': 'Serçinoğlu, O., Ozbek, P.',
+'year': '2019',
+'journal': 'In Silico Drug Design: Repurposing Techniques and Methodologies, Pages 649-677', 'doi': '10.1016/B978-0-12-816125-8.00024-9',
+'url': 'https://doi.org/10.1016/B978-0-12-816125-8.00024-9'}
 - {'name': 'How do mutations and allosteric inhibitors modulate caspase-7 activity? A molecular dynamics study',
 'authors': 'Bingöl, E. N., Serçinoğlu, O., Ozbek, P.', 'journal': 'J. Biomol. Struct. Dyn. 37, 3456–3466',
 'year': '2019',
