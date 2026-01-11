@@ -2,82 +2,94 @@
 layout: default
 ---
 
-{{ content }}
+<div class="row">
+  <!-- Left Sidebar -->
+  <div class="col-lg-4 mb-4">
+    <div class="sticky-top" style="top: 20px;">
+      {{ content }}
 
-<div class="row g-5 mb-5">
-  <div>
-    <!-- Education -->
-    <div class="row g-4 mb-5">
-      <div class="col-md-3">
-        <h4 class="fw-bold text-primary">Education</h4>
+      <!-- Social Links -->
+      {% if page.linkedin or page.twitter %}
+      <div class="mt-4">
+        <h5 class="fw-bold mb-3"><i class="fas fa-link me-2"></i>Connect</h5>
+        <div class="d-flex gap-3">
+          {% if page.linkedin %}
+          <a href="{{ page.linkedin }}" target="_blank" class="text-decoration-none" title="LinkedIn">
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          {% endif %}
+          {% if page.twitter %}
+          <a href="{{ page.twitter }}" target="_blank" class="text-decoration-none" title="X (Twitter)">
+            <i class="fab fa-x-twitter fa-2x"></i>
+          </a>
+          {% endif %}
+        </div>
       </div>
-      <div class="col-md-9">
-        {% for item in site.data.cv.education %}
-          <div class="mb-4">
-            <div class="d-flex justify-content-between align-items-start">
-              <p class="fw-bold mb-1">{{ item.title }}</p>
-              <span class="text-muted small">{{ item.year }}</span>
-            </div>
-            <p class="text-secondary mb-1">{{ item.institution }}</p>
-            {% if item.description %}<p class="small mb-1">{{ item.description }}</p>{% endif %}
-            {% if item.thesis %}<p class="small fst-italic mb-0">Thesis: "{{ item.thesis }}"</p>{% endif %}
-          </div>
-        {% endfor %}
-      </div>
+      {% endif %}
     </div>
+  </div>
 
-    <hr class="mb-5">
+  <!-- Right Main Content -->
+  <div class="col-lg-8">
+
+    <!-- Education -->
+    <div class="mb-5">
+      <h4 class="fw-bold border-bottom pb-2 mb-4"><i class="fas fa-graduation-cap me-2"></i>Education</h4>
+      {% for item in site.data.cv.education %}
+        <div class="mb-4">
+          <div class="d-flex justify-content-between align-items-start flex-wrap">
+            <p class="fw-bold mb-1">{{ item.title }}</p>
+            <span class="text-muted small">{{ item.year }}</span>
+          </div>
+          <p class="text-secondary mb-1">{{ item.institution }}</p>
+          {% if item.description %}<p class="small mb-1">{{ item.description }}</p>{% endif %}
+          {% if item.thesis %}<p class="small fst-italic mb-0">Thesis: "{{ item.thesis }}"</p>{% endif %}
+        </div>
+      {% endfor %}
+    </div>
 
     <!-- Work Experience -->
-    <div class="row g-4 mb-5">
-      <div class="col-md-3">
-        <h4 class="fw-bold text-primary">Work Experience</h4>
-      </div>
-      <div class="col-md-9">
-        {% for item in site.data.cv.academic-experience %}
-          <div class="mb-4">
-            <div class="d-flex justify-content-between align-items-start">
-              <p class="fw-bold mb-1">{{ item.title }}</p>
-              <span class="text-muted small">{{ item.year }}</span>
-            </div>
-            <p class="text-secondary mb-1">{{ item.institution }}{% if item.location %}, {{ item.location }}{% endif %}</p>
-            {% if item.description %}<p class="small mb-1">{{ item.description }}</p>{% endif %}
-            {% if item.courses %}<p class="small mb-0"><em>Courses:</em> {{ item.courses }}</p>{% endif %}
+    <div class="mb-5">
+      <h4 class="fw-bold border-bottom pb-2 mb-4"><i class="fas fa-briefcase me-2"></i>Work Experience</h4>
+      {% for item in site.data.cv.academic-experience %}
+        <div class="mb-4">
+          <div class="d-flex justify-content-between align-items-start flex-wrap">
+            <p class="fw-bold mb-1">{{ item.title }}</p>
+            <span class="text-muted small">{{ item.year }}</span>
           </div>
-        {% endfor %}
-      </div>
+          <p class="text-secondary mb-1">{{ item.institution }}{% if item.location %}, {{ item.location }}{% endif %}</p>
+          {% if item.description %}<p class="small mb-1">{{ item.description }}</p>{% endif %}
+          {% if item.courses %}<p class="small mb-0"><em>Courses:</em> {{ item.courses }}</p>{% endif %}
+        </div>
+      {% endfor %}
     </div>
-
-    <hr class="mb-5">
 
     <!-- Research Projects -->
-    <div class="row g-4 mb-5">
-      <div class="col-md-3">
-        <h4 class="fw-bold text-primary">Research Projects</h4>
-      </div>
-      <div class="col-md-9">
-        {% for item in site.data.cv.research-projects %}
-          <div class="mb-3">
-            <div class="d-flex justify-content-between align-items-start">
-              <p class="fw-bold mb-1">{{ item.title }}</p>
-              <span class="text-muted small">{{ item.year }}</span>
-            </div>
-            <p class="small mb-0">Funded by: {{ item.funder }} | Role: {{ item.role }}</p>
+    <div class="mb-5">
+      <h4 class="fw-bold border-bottom pb-2 mb-4"><i class="fas fa-flask me-2"></i>Research Projects</h4>
+      {% for item in site.data.cv.research-projects %}
+        <div class="mb-3">
+          <div class="d-flex justify-content-between align-items-start flex-wrap">
+            <p class="fw-bold mb-1">{{ item.title }}</p>
+            <span class="text-muted small">{{ item.year }}</span>
           </div>
-        {% endfor %}
-      </div>
+          <p class="small mb-0">Funded by: {{ item.funder }} | Role: {{ item.role }}</p>
+        </div>
+      {% endfor %}
     </div>
 
-    <hr class="mb-5">
+    <!-- Publications -->
+    <div class="mb-5">
+      <h4 class="fw-bold border-bottom pb-2 mb-4"><i class="fas fa-book-open me-2"></i>Publications</h4>
+      <p>For a complete list of publications, please visit the <a href="/publications"><i class="fas fa-arrow-right me-1"></i>Publications page</a>.</p>
+    </div>
 
     <!-- Skills -->
-    <div class="row g-4 mb-5">
-      <div class="col-md-3">
-        <h4 class="fw-bold text-primary">Skills</h4>
-      </div>
-      <div class="col-md-9">
+    <div class="mb-5">
+      <h4 class="fw-bold border-bottom pb-2 mb-4"><i class="fas fa-tools me-2"></i>Skills</h4>
+      <div class="row">
         {% for skill in site.data.cv.skills %}
-          <div class="mb-3">
+          <div class="col-md-6 mb-3">
             <p class="fw-bold mb-1">{{ skill.category }}</p>
             <p class="small mb-0">
               {% for item in skill.items %}
@@ -89,20 +101,14 @@ layout: default
       </div>
     </div>
 
-    <hr class="mb-5">
-
     <!-- Awards -->
-    <div class="row g-4 mb-5">
-      <div class="col-md-3">
-        <h4 class="fw-bold text-primary">Awards</h4>
-      </div>
-      <div class="col-md-9">
-        {% for item in site.data.cv.awards %}
-          <div class="mb-2">
-            <p class="mb-0"><span class="fw-bold">{{ item.title }}</span> <span class="text-muted small">({{ item.type }})</span></p>
-          </div>
-        {% endfor %}
-      </div>
+    <div class="mb-5">
+      <h4 class="fw-bold border-bottom pb-2 mb-4"><i class="fas fa-award me-2"></i>Awards</h4>
+      {% for item in site.data.cv.awards %}
+        <div class="mb-2">
+          <p class="mb-0"><span class="fw-bold">{{ item.title }}</span> <span class="text-muted small">({{ item.type }})</span></p>
+        </div>
+      {% endfor %}
     </div>
 
   </div>
