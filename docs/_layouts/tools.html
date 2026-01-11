@@ -9,10 +9,7 @@ layout: default
   <div class="col-md-6 col-lg-4">
     <div class="card h-100" style="border: 2px solid #333; background-color: #f8f9fa;">
       <div class="card-body">
-        <div class="d-flex align-items-center mb-3">
-          <i class="{{ tool.icon }} fa-2x me-3" style="color: #495057;"></i>
-          <h5 class="card-title mb-0 fw-bold">{{ tool.name }}</h5>
-        </div>
+        <h5 class="card-title fw-bold mb-3">{{ tool.name }}</h5>
         <p class="card-text">{{ tool.description }}</p>
         {% if tool.features %}
         <ul class="small mb-3">
