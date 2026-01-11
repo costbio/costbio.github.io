@@ -5,56 +5,92 @@ layout: default
 {{ content }}
 
 <style>
+.pub-filters {
+  margin-bottom: 1.5rem;
+}
+.pub-filter-btn {
+  margin: 0.25rem;
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+  font-size: 0.85rem;
+  border: 1px solid #dee2e6;
+  background: #fff;
+  color: #495057;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.pub-filter-btn:hover {
+  background: #e9ecef;
+}
+.pub-filter-btn.active {
+  background: #333;
+  color: #fff;
+  border-color: #333;
+}
 .pub-category {
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 .pub-category-header {
   border-bottom: 2px solid #dee2e6;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1.5rem;
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.75rem;
 }
 .pub-entry {
   display: flex;
   border-bottom: 1px solid #e9ecef;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 }
 .pub-entry:last-child {
   border-bottom: none;
 }
 .pub-year {
-  min-width: 70px;
+  min-width: 55px;
   font-weight: bold;
   color: #495057;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
 }
 .pub-content {
   flex: 1;
-  padding-left: 1rem;
+  padding-left: 0.75rem;
 }
 .pub-title {
   font-weight: bold;
-  margin-bottom: 0.3rem;
-  line-height: 1.4;
+  margin-bottom: 0.15rem;
+  line-height: 1.3;
+  font-size: 0.95rem;
 }
 .pub-authors {
   font-style: italic;
   color: #6c757d;
-  margin-bottom: 0.3rem;
-  font-size: 0.95rem;
+  margin-bottom: 0.1rem;
+  font-size: 0.85rem;
 }
 .pub-journal {
   color: #6c757d;
-  font-size: 0.9rem;
-  margin-bottom: 0.3rem;
+  font-size: 0.8rem;
+  margin-bottom: 0.1rem;
 }
 .pub-link a {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
+}
+.pub-category.hidden {
+  display: none;
 }
 </style>
 
+<!-- Filter Buttons -->
+<div class="pub-filters">
+  <button class="pub-filter-btn active" data-filter="all">All</button>
+  <button class="pub-filter-btn" data-filter="immunoinformatics">Immunoinformatics</button>
+  <button class="pub-filter-btn" data-filter="drug_discovery">Drug Discovery</button>
+  <button class="pub-filter-btn" data-filter="protein_engineering">Protein Engineering</button>
+  <button class="pub-filter-btn" data-filter="software_tools">Software & Tools</button>
+  <button class="pub-filter-btn" data-filter="computational_biology">Computational Biology</button>
+</div>
+
 <!-- Immunoinformatics -->
 {% if site.data.publications.immunoinformatics.size > 0 %}
-<div class="pub-category">
+<div class="pub-category" data-category="immunoinformatics">
   <h4 class="pub-category-header"><i class="fas fa-shield-virus me-2"></i>Immunoinformatics</h4>
   {% for pub in site.data.publications.immunoinformatics %}
   <div class="pub-entry">
@@ -74,7 +110,7 @@ layout: default
 
 <!-- Drug Discovery -->
 {% if site.data.publications.drug_discovery.size > 0 %}
-<div class="pub-category">
+<div class="pub-category" data-category="drug_discovery">
   <h4 class="pub-category-header"><i class="fas fa-pills me-2"></i>Drug Discovery</h4>
   {% for pub in site.data.publications.drug_discovery %}
   <div class="pub-entry">
@@ -94,7 +130,7 @@ layout: default
 
 <!-- Protein Engineering -->
 {% if site.data.publications.protein_engineering.size > 0 %}
-<div class="pub-category">
+<div class="pub-category" data-category="protein_engineering">
   <h4 class="pub-category-header"><i class="fas fa-dna me-2"></i>Protein Engineering</h4>
   {% for pub in site.data.publications.protein_engineering %}
   <div class="pub-entry">
@@ -114,7 +150,7 @@ layout: default
 
 <!-- Software & Tools -->
 {% if site.data.publications.software_tools.size > 0 %}
-<div class="pub-category">
+<div class="pub-category" data-category="software_tools">
   <h4 class="pub-category-header"><i class="fas fa-code me-2"></i>Software & Tools</h4>
   {% for pub in site.data.publications.software_tools %}
   <div class="pub-entry">
@@ -134,7 +170,7 @@ layout: default
 
 <!-- Computational Biology -->
 {% if site.data.publications.computational_biology.size > 0 %}
-<div class="pub-category">
+<div class="pub-category" data-category="computational_biology">
   <h4 class="pub-category-header"><i class="fas fa-laptop-code me-2"></i>Computational Biology</h4>
   {% for pub in site.data.publications.computational_biology %}
   <div class="pub-entry">
@@ -152,22 +188,28 @@ layout: default
 </div>
 {% endif %}
 
-<!-- Reviews & Book Chapters -->
-{% if site.data.publications.reviews.size > 0 %}
-<div class="pub-category">
-  <h4 class="pub-category-header"><i class="fas fa-book me-2"></i>Reviews & Book Chapters</h4>
-  {% for pub in site.data.publications.reviews %}
-  <div class="pub-entry">
-    <div class="pub-year">{{ pub.year }}</div>
-    <div class="pub-content">
-      <div class="pub-title">{{ pub.name }}</div>
-      <div class="pub-authors">{{ pub.authors }}</div>
-      <div class="pub-journal">{{ pub.journal }}</div>
-      {% if pub.url and pub.url != '' %}
-      <div class="pub-link"><a href="{{ pub.url }}" target="_blank"><i class="fas fa-external-link-alt me-1"></i>{% if pub.doi %}{{ pub.doi }}{% else %}View Publication{% endif %}</a></div>
-      {% endif %}
-    </div>
-  </div>
-  {% endfor %}
-</div>
-{% endif %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const filterBtns = document.querySelectorAll('.pub-filter-btn');
+  const categories = document.querySelectorAll('.pub-category');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', function() {
+      const filter = this.dataset.filter;
+
+      // Update active button
+      filterBtns.forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+
+      // Show/hide categories
+      categories.forEach(cat => {
+        if (filter === 'all' || cat.dataset.category === filter) {
+          cat.classList.remove('hidden');
+        } else {
+          cat.classList.add('hidden');
+        }
+      });
+    });
+  });
+});
+</script>

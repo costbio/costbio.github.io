@@ -5,7 +5,20 @@ protein_engineering:
   journal: 'International Journal of Biological Macromolecules'
   url: 'https://www.sciencedirect.com/science/article/abs/pii/S0141813026000346'
 
+- name: 'Computational Protein Engineering'
+  authors: 'Okur, T., Serçinoğlu, O.'
+  year: '2025'
+  journal: 'Encyclopedia of Bioinformatics and Computational Biology (Second Edition), Volume 6, Pages 159-171'
+  doi: '10.1016/B978-0-323-95502-7.00261-X'
+  url: 'https://doi.org/10.1016/B978-0-323-95502-7.00261-X'
+
 immunoinformatics:
+- name: 'Recent Advancements in Computational Approaches for Tailoring Toll-like Receptors and Antimicrobial Peptides Against Candida Infections'
+  authors: 'Biçer, M., Serçinoğlu, O., Okur, T.'
+  year: '2025'
+  journal: 'Celal Bayar University Journal of Science, Volume 21, Issue 3, Pages 1-9'
+  url: ''
+
 - name: 'Understanding Allosteric Stabilization of pMHC by Peptide Ligands Through Molecular Dynamics Simulations'
   authors: 'Serçinoğlu, O.'
   year: '2025'
@@ -117,6 +130,12 @@ drug_discovery:
   doi: '10.1016/B978-0-12-816125-8.00024-9'
   url: 'https://doi.org/10.1016/B978-0-12-816125-8.00024-9'
 
+- name: 'Computational approaches used in Anticancer plants'
+  authors: 'Ulucan-Karnak, F., Yilmaz-Sercinoglu, Z., Sercinoglu, O., Ali, A.'
+  year: '2022'
+  journal: 'Plant-Derived Anticancer Drugs in OMICS Era: Biosynthesis, Function and Applications, Apple Academic Press'
+  url: ''
+
 software_tools:
 - name: 'gRINN: A tool for calculation of residue interaction energies and protein energy network analysis of molecular dynamics simulations'
   authors: 'Serçinoğlu, O., Ozbek, P.'
@@ -131,26 +150,6 @@ software_tools:
   journal: 'Nucleic Acids Res.'
   doi: '10.1093/nar/gkz390'
   url: 'https://doi.org/10.1093/nar/gkz390'
-
-reviews:
-- name: 'Recent Advancements in Computational Approaches for Tailoring Toll-like Receptors and Antimicrobial Peptides Against Candida Infections'
-  authors: 'Biçer, M., Serçinoğlu, O., Okur, T.'
-  year: '2025'
-  journal: 'Celal Bayar University Journal of Science, Volume 21, Issue 3, Pages 1-9'
-  url: ''
-
-- name: 'Computational Protein Engineering'
-  authors: 'Okur, T., Serçinoğlu, O.'
-  year: '2025'
-  journal: 'Encyclopedia of Bioinformatics and Computational Biology (Second Edition), Volume 6, Pages 159-171'
-  doi: '10.1016/B978-0-323-95502-7.00261-X'
-  url: 'https://doi.org/10.1016/B978-0-323-95502-7.00261-X'
-
-- name: 'Computational approaches used in Anticancer plants'
-  authors: 'Ulucan-Karnak, F., Yilmaz-Sercinoglu, Z., Sercinoglu, O., Ali, A.'
-  year: '2022'
-  journal: 'Plant-Derived Anticancer Drugs in OMICS Era: Biosynthesis, Function and Applications, Apple Academic Press'
-  url: ''
 
 computational_biology:
 - name: 'Non-apoptotic cell death induction via sapogenin based supramolecular particles'
