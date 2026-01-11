@@ -1,4 +1,24 @@
 index:
+- {'name': 'A novel Amycolatopsis sulphurea L-alanine dehydrogenase with enhanced bidirectional catalysis: Rational design, expression, and biochemical characterization',
+'authors': 'Aksu, T. O., Serçinoğlu, O., Aktaş, F., Binay, B.',
+'year': '2026',
+'journal': 'International Journal of Biological Macromolecules',
+'url': 'https://www.sciencedirect.com/science/article/abs/pii/S0141813026000346'}
+- {'name': 'Understanding Allosteric Stabilization of pMHC by Peptide Ligands Through Molecular Dynamics Simulations',
+'authors': 'Serçinoğlu, O.',
+'year': '2025',
+'journal': 'Turkish Journal of Immunology, Volume 13, Issue 3, Pages 132-145',
+'url': 'https://turkishimmunology.org/'}
+- {'name': 'Repurposing existing drugs to discover allosteric inhibitors of ERK5',
+'authors': 'Turhal, G., Serçinoğlu, O., Demiroglu-Zergeroglu, A.',
+'year': '2025',
+'journal': 'FEBS Open Bio, Volume 15, Page 317',
+'url': ''}
+- {'name': 'Recent Advancements in Computational Approaches for Tailoring Toll-like Receptors and Antimicrobial Peptides Against Candida Infections',
+'authors': 'Biçer, M., Serçinoğlu, O., Okur, T.',
+'year': '2025',
+'journal': 'Celal Bayar University Journal of Science, Volume 21, Issue 3, Pages 1-9',
+'url': ''}
 - {'name': 'Computational Prediction of Immune Epitopes',
 'authors': 'Atak, E., Eke, T. E., Serçinoğlu, O.',
 'year': '2025',
