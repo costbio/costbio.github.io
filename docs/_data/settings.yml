@@ -18,7 +18,7 @@ people_personnel:
   email: 'e.tugba A T gtu.edu.tr', office: 'BYM010', url: 'tugba-emine-eke',
   google_scholar: '',
   github: '',
-  linkedin: ''}
+  linkedin: 'https://www.linkedin.com/in/tugbaemineeke/'}
 
 people_graduate:
 - {name: 'Şevval Dik', title: 'PhD Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
