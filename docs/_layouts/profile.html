@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+{% comment %}
+Find the person data from settings.yml based on the page's person_id
+{% endcomment %}
+{% assign person = nil %}
+{% for p in site.data.settings.people_personnel %}
+  {% if p.url == page.person_id %}
+    {% assign person = p %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+{% if person == nil %}
+  {% for p in site.data.settings.people_graduate %}
+    {% if p.url == page.person_id %}
+      {% assign person = p %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+<div class="row mb-5">
+  <div class="col-md-4 text-center mb-4">
+    <div class="person-image-placeholder mx-auto" style="width: 150px; height: 150px;">
+      <i class="fas fa-user" style="font-size: 4rem;"></i>
+    </div>
+  </div>
+  <div class="col-md-8">
+    <h2 class="fw-bold mb-2">{{ person.name }}</h2>
+    <p class="text-muted mb-1">{{ person.title }}</p>
+    {% if person.program %}
+    <p class="mb-1"><strong>Program:</strong> {{ person.program }}</p>
+    {% endif %}
+    {% if person.department %}
+    <p class="mb-1"><strong>Department:</strong> {{ person.department }}</p>
+    {% endif %}
+    {% if person.institution %}
+    <p class="mb-1"><strong>Institution:</strong> {{ person.institution }}</p>
+    {% endif %}
+    {% if person.email %}
+    <p class="mb-1"><strong>Email:</strong> {{ person.email }}</p>
+    {% endif %}
+    {% if person.office %}
+    <p class="mb-1"><strong>Office:</strong> {{ person.office }}</p>
+    {% endif %}
+    {% if person.linkedin %}
+    <p class="mb-1">
+      <a href="https://www.linkedin.com/in/{{ person.linkedin }}" target="_blank">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+    </p>
+    {% endif %}
+  </div>
+</div>
+
+{% if content != "" %}
+<div class="mb-5">
+  {{ content }}
+</div>
+{% endif %}
+
+<p><a href="{{ site.baseurl }}/people"><i class="fas fa-arrow-left me-1"></i>Back to People</a></p>

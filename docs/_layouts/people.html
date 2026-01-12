@@ -5,48 +5,89 @@ layout: default
 {{ content }}
 
 <h3 class="fw-bold border-bottom pb-3 mb-5">Current Members</h3>
-<h4 class="fw-bold pb-3 mb-5">Personnel</h4>
-<div class="row g-5 mb-5">
+
+<h4 class="fw-bold pb-3 mb-4">Personnel</h4>
+<div class="row g-4 mb-5">
   {% for person in site.data.settings.people_personnel %}
-  <div class="col-md-4"> <!-- Change col-md-6 to col-md-4 for three columns -->
-      <b>{{ person.name }}</b>, {{ person.title }}
-      <p>Email: {{ person.email }}</p>
-      <!-- Uncomment if you want to include a link to more information -->
-      <!-- <p><a href="{{ site.github.url }}/people/{{ person.url }}">More info</a></p> -->
+  <div class="col-md-4">
+    {% if person.title == 'Principal Investigator' %}
+    <a href="{{ site.baseurl }}/pi" class="person-card-link">
+    {% else %}
+    <a href="{{ site.baseurl }}/people/{{ person.url }}" class="person-card-link">
+    {% endif %}
+      <div class="person-card">
+        <div class="person-image-placeholder">
+          <i class="fas fa-user"></i>
+        </div>
+        <div class="person-name">{{ person.name }}</div>
+        <div class="person-title">{{ person.title }}</div>
+        {% if person.email %}
+        <div class="person-email">{{ person.email }}</div>
+        {% endif %}
+      </div>
+    </a>
   </div>
   {% endfor %}
 </div>
 
-<h4 class="fw-bold pb-3 mb-5">Graduate Students</h4>
-<div class="row g-5 mb-5">
+<h4 class="fw-bold pb-3 mb-4">Graduate Students</h4>
+<div class="row g-4 mb-5">
   {% for person in site.data.settings.people_graduate %}
-  <div class="col-md-4"> <!-- Change col-md-6 to col-md-4 for three columns -->
-      <b>{{ person.name }}</b>, {{ person.title }}
-      <p>Email: {{ person.email }}</p>
-      <!-- Uncomment if you want to include a link to more information -->
-      <!-- <p><a href="{{ site.github.url }}/people/{{ person.url }}">More info</a></p> -->
+  <div class="col-md-4">
+    <a href="{{ site.baseurl }}/people/{{ person.url }}" class="person-card-link">
+      <div class="person-card">
+        <div class="person-image-placeholder">
+          <i class="fas fa-user"></i>
+        </div>
+        <div class="person-name">{{ person.name }}</div>
+        <div class="person-title">{{ person.title }}</div>
+        {% if person.email %}
+        <div class="person-email">{{ person.email }}</div>
+        {% endif %}
+      </div>
+    </a>
   </div>
   {% endfor %}
 </div>
 
-<h4 class="fw-bold pb-3 mb-5">Undergraduate Students</h4>
-<div class="row g-5 mb-5">
+{% if site.data.settings.people_undergraduate.size > 0 %}
+<h4 class="fw-bold pb-3 mb-4">Undergraduate Students</h4>
+<div class="row g-4 mb-5">
   {% for person in site.data.settings.people_undergraduate %}
-  <div class="col-md-4"> <!-- Change col-md-6 to col-md-4 for three columns -->
-      <b>{{ person.name }}</b>, {{ person.title }}
-      <!-- Uncomment if you want to include a link to more information -->
-      <!-- <p><a href="{{ site.github.url }}/people/{{ person.url }}">More info</a></p> -->
+  <div class="col-md-4">
+    <div class="person-card">
+      <div class="person-image-placeholder">
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="person-name">{{ person.name }}</div>
+      <div class="person-title">{{ person.title }}</div>
+      {% if person.email %}
+      <div class="person-email">{{ person.email }}</div>
+      {% endif %}
+    </div>
   </div>
   {% endfor %}
 </div>
+{% endif %}
 
 <h3 class="fw-bold border-bottom pb-3 mb-5">Former Members</h3>
-<div class="row g-5 mb-5">
-  {% for person in site.data.settings.people_alumni %}
-  <div class="col-md-4"> <!-- Change col-md-6 to col-md-4 for three columns -->
-      <b>{{ person.name }}</b>, {{ person.title }}
-      <!-- Uncomment if you want to include a link to more information -->
-      <!-- <p><a href="{{ site.github.url }}/people/{{ person.url }}">More info</a></p> -->
-  </div>
-  {% endfor %}
+<div class="table-responsive mb-5">
+  <table class="alumni-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Former Title</th>
+        <th>Current Position</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for person in site.data.settings.people_alumni %}
+      <tr>
+        <td><b>{{ person.name }}</b></td>
+        <td>{{ person.title }}</td>
+        <td>{% if person.current_position %}{{ person.current_position }}{% else %}-{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
 </div>

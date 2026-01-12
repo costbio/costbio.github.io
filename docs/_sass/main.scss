@@ -12,3 +12,89 @@ body {
 body a {
   color: $linkColor
 }
+
+// People page card styling
+.person-card {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  padding: 1.25rem;
+  height: 100%;
+  transition: box-shadow 0.2s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.person-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+
+  &:hover {
+    color: inherit;
+  }
+}
+
+.person-image-placeholder {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #e9ecef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem auto;
+  border: 2px solid #dee2e6;
+
+  i {
+    font-size: 2.5rem;
+    color: #adb5bd;
+  }
+}
+
+.person-name {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+  text-align: center;
+}
+
+.person-title {
+  color: #6c757d;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+  text-align: center;
+}
+
+.person-email {
+  font-size: 0.85rem;
+  color: #495057;
+  text-align: center;
+  word-break: break-all;
+}
+
+// Former members table styling
+.alumni-table {
+  width: 100%;
+
+  th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+    padding: 0.75rem;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #dee2e6;
+    vertical-align: top;
+  }
+
+  tr:hover {
+    background-color: #f8f9fa;
+  }
+}
