@@ -23,9 +23,34 @@ Find the person data from settings.yml based on the page's person_id
 
 <div class="row mb-5">
   <div class="col-md-4 text-center mb-4">
-    <div class="person-image-placeholder mx-auto" style="width: 150px; height: 150px;">
-      <i class="fas fa-user" style="font-size: 4rem;"></i>
+    <div class="profile-image-container mx-auto">
+      <img src="{{ site.baseurl }}/assets/images/people/{{ person.url }}.jpg"
+           alt="{{ person.name }}"
+           class="profile-image"
+           onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      <div class="profile-image-placeholder" style="display: none;">
+        <i class="fas fa-user"></i>
+      </div>
     </div>
+    {% if person.google_scholar != '' or person.github != '' or person.linkedin != '' %}
+    <div class="profile-social-links mt-3">
+      {% if person.google_scholar != '' %}
+      <a href="{{ person.google_scholar }}" target="_blank" title="Google Scholar">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 512 512"><path d="M390.9 298.5c0 0 0 .1.1.1c9.2 19.4 14.4 41.1 14.4 64.1c0 83.1-67.4 150.5-150.5 150.5c-83.1 0-150.5-67.4-150.5-150.5c0-32.5 10.3-62.6 27.8-87.2H32l224-192l224 192h-89.1zM254.9 64c83.1 0 150.5 67.4 150.5 150.5c0 8.2-.7 16.2-1.9 24h-89.1c9.2 19.4 14.4 41.1 14.4 64.1c0 3.9-.2 7.8-.5 11.6c-3.8-.5-7.7-.8-11.6-.8c-52.7 0-95.4 42.8-95.4 95.4c0 3.9.2 7.8.5 11.6c-3.8.5-7.7.8-11.6.8c-83.1 0-150.5-67.4-150.5-150.5c0-8.2.7-16.2 1.9-24H32l224-192l224 192h-89.1c-9.2-19.4-14.4-41.1-14.4-64.1c0-83.1 67.4-150.5 150.5-150.5z"/></svg>
+      </a>
+      {% endif %}
+      {% if person.github != '' %}
+      <a href="{{ person.github }}" target="_blank" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      {% endif %}
+      {% if person.linkedin != '' %}
+      <a href="{{ person.linkedin }}" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      {% endif %}
+    </div>
+    {% endif %}
   </div>
   <div class="col-md-8">
     <h2 class="fw-bold mb-2">{{ person.name }}</h2>
@@ -44,13 +69,6 @@ Find the person data from settings.yml based on the page's person_id
     {% endif %}
     {% if person.office %}
     <p class="mb-1"><strong>Office:</strong> {{ person.office }}</p>
-    {% endif %}
-    {% if person.linkedin %}
-    <p class="mb-1">
-      <a href="https://www.linkedin.com/in/{{ person.linkedin }}" target="_blank">
-        <i class="fab fa-linkedin"></i> LinkedIn
-      </a>
-    </p>
     {% endif %}
   </div>
 </div>

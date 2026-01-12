@@ -6,43 +6,69 @@ menu:
 - {name: 'contact', url: '/contact', icon: 'horn'}
 
 people_personnel:
-- {name: 'Onur Serçinoğlu', title: 'Principal Investigator', department: 'Bioengineering', institution: 'Gebze Technical University', 
-  institution_address: 'Gebze Technical University, Gebze, Kocaeli, Türkiye', 
-  email: 'osercinoglu A T gtu.edu.tr', office: 'BYM110',  url: 'onur-sercinoglu',
-  linkedin: 'onursercinoglu'}
+- {name: 'Onur Serçinoğlu', title: 'Principal Investigator', department: 'Bioengineering', institution: 'Gebze Technical University',
+  institution_address: 'Gebze Technical University, Gebze, Kocaeli, Türkiye',
+  email: 'osercinoglu A T gtu.edu.tr', office: 'BYM110', url: 'onur-sercinoglu',
+  google_scholar: 'https://scholar.google.com/citations?user=XSLgFqAAAAAJ&hl=en',
+  github: 'https://github.com/osercinoglu',
+  linkedin: 'https://www.linkedin.com/in/onursercinoglu/'}
 
 - {name: 'Tuğba Emine Eke', title: 'Research Assistant and Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
-  institution: 'Gebze Technical University', institution_address: '', 
-  email: 'e.tugba A T gtu.edu.tr', office: 'BYM010', url: 'tugba-emine-eke'}
+  institution: 'Gebze Technical University', institution_address: '',
+  email: 'e.tugba A T gtu.edu.tr', office: 'BYM010', url: 'tugba-emine-eke',
+  google_scholar: '',
+  github: '',
+  linkedin: ''}
 
 people_graduate:
 - {name: 'Şevval Dik', title: 'PhD Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
-  institution: 'Gebze Technical University', institution_address: '', 
-  email: 'sevvaldik A T gtu.edu.tr', url: 'sevval-dik'}
+  institution: 'Gebze Technical University', institution_address: '',
+  email: 'sevvaldik A T gtu.edu.tr', url: 'sevval-dik',
+  google_scholar: '',
+  github: '',
+  linkedin: ''}
 
 - {name: 'Hatice Nur Aydın', title: 'PhD Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
-  institution: 'Gebze Technical University', institution_address: '', 
-  email: 'haydin2025 A T gtu.edu.tr', url: 'hatice-nur-aydin'}
+  institution: 'Gebze Technical University', institution_address: '',
+  email: 'haydin2025 A T gtu.edu.tr', url: 'hatice-nur-aydin',
+  google_scholar: '',
+  github: '',
+  linkedin: ''}
 
 - {name: 'Şuara Şahin', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
-  institution: 'Gebze Technical University', institution_address: '', 
-  email: 's.sahin2022 A T gtu.edu.tr', url: 'suara-sahin'}
+  institution: 'Gebze Technical University', institution_address: '',
+  email: 's.sahin2022 A T gtu.edu.tr', url: 'suara-sahin',
+  google_scholar: '',
+  github: '',
+  linkedin: ''}
 
 - {name: 'Seher Burcu Özkan', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
-  institution: 'Gebze Technical University', institution_address: '', 
-  email: 's.ozkan2025 A T gtu.edu.tr', url: 'seher-burcu-ozkan'}
+  institution: 'Gebze Technical University', institution_address: '',
+  email: 's.ozkan2025 A T gtu.edu.tr', url: 'seher-burcu-ozkan',
+  google_scholar: '',
+  github: '',
+  linkedin: ''}
 
 - {name: 'Emre Taha Çevik', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
-  institution: 'Gebze Technical University', institution_address: '',  
-  email: 'e.cevik2019 A T gtu.edu.tr', url: 'emre-cevik'}
+  institution: 'Gebze Technical University', institution_address: '',
+  email: 'e.cevik2019 A T gtu.edu.tr', url: 'emre-cevik',
+  google_scholar: '',
+  github: '',
+  linkedin: ''}
 
 - {name: 'Öyküm Önel', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
-  institution: 'Gebze Technical University', institution_address: '',  
-  email: 'o.onel2019 A T gtu.edu.tr', url: 'oykum-onel'}
+  institution: 'Gebze Technical University', institution_address: '',
+  email: 'o.onel2019 A T gtu.edu.tr', url: 'oykum-onel',
+  google_scholar: '',
+  github: '',
+  linkedin: ''}
 
-- {name: 'Alper Tanrıkulu', title: 'Msc Student', department: 'Bioengineering',  program: 'Bioinformatics and Systems Biology',
-  institution: 'Gebze Technical University', institution_address: '', 
-  email: 'a.tanrikulu2023 A T gtu.edu.tr', url: 'alperen-tanrikulu'}
+- {name: 'Alper Tanrıkulu', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
+  institution: 'Gebze Technical University', institution_address: '',
+  email: 'a.tanrikulu2023 A T gtu.edu.tr', url: 'alperen-tanrikulu',
+  google_scholar: '',
+  github: '',
+  linkedin: ''}
 
 people_undergraduate:
 

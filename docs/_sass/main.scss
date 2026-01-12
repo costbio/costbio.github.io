@@ -38,6 +38,21 @@ body a {
   }
 }
 
+.person-image-container {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 1rem auto;
+  position: relative;
+}
+
+.person-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #dee2e6;
+}
+
 .person-image-placeholder {
   width: 100px;
   height: 100px;
@@ -46,12 +61,37 @@ body a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 1rem auto;
   border: 2px solid #dee2e6;
+  position: absolute;
+  top: 0;
+  left: 0;
 
   i {
     font-size: 2.5rem;
     color: #adb5bd;
+  }
+}
+
+.person-social-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #e9ecef;
+
+  a {
+    color: #6c757d;
+    font-size: 1.1rem;
+    transition: color 0.2s ease-in-out;
+
+    &:hover {
+      color: #212529;
+    }
+
+    svg {
+      vertical-align: middle;
+    }
   }
 }
 
@@ -74,6 +114,60 @@ body a {
   color: #495057;
   text-align: center;
   word-break: break-all;
+}
+
+// Profile page styling
+.profile-image-container {
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #dee2e6;
+}
+
+.profile-image-placeholder {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #e9ecef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #dee2e6;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  i {
+    font-size: 4rem;
+    color: #adb5bd;
+  }
+}
+
+.profile-social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+  a {
+    color: #6c757d;
+    font-size: 1.5rem;
+    transition: color 0.2s ease-in-out;
+
+    &:hover {
+      color: #212529;
+    }
+
+    svg {
+      vertical-align: middle;
+    }
+  }
 }
 
 // Former members table styling
