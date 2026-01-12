@@ -17,13 +17,13 @@ layout: default
     {% endif %}
       <div class="person-card">
         <div class="person-image-container">
+          <div class="person-image-placeholder">
+            <i class="fas fa-user"></i>
+          </div>
           <img src="{{ site.baseurl }}/assets/images/people/{{ person.url }}.jpg"
                alt="{{ person.name }}"
                class="person-image"
-               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-          <div class="person-image-placeholder" style="display: none;">
-            <i class="fas fa-user"></i>
-          </div>
+               onerror="this.style.display='none';">
         </div>
         <div class="person-name">{{ person.name }}</div>
         <div class="person-title">{{ person.title }}</div>
@@ -62,13 +62,13 @@ layout: default
     <a href="{{ site.baseurl }}/people/{{ person.url }}" class="person-card-link">
       <div class="person-card">
         <div class="person-image-container">
+          <div class="person-image-placeholder">
+            <i class="fas fa-user"></i>
+          </div>
           <img src="{{ site.baseurl }}/assets/images/people/{{ person.url }}.jpg"
                alt="{{ person.name }}"
                class="person-image"
-               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-          <div class="person-image-placeholder" style="display: none;">
-            <i class="fas fa-user"></i>
-          </div>
+               onerror="this.style.display='none';">
         </div>
         <div class="person-name">{{ person.name }}</div>
         <div class="person-title">{{ person.title }}</div>
@@ -107,13 +107,13 @@ layout: default
   <div class="col-md-4">
     <div class="person-card">
       <div class="person-image-container">
+        <div class="person-image-placeholder">
+          <i class="fas fa-user"></i>
+        </div>
         <img src="{{ site.baseurl }}/assets/images/people/{{ person.url }}.jpg"
              alt="{{ person.name }}"
              class="person-image"
-             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-        <div class="person-image-placeholder" style="display: none;">
-          <i class="fas fa-user"></i>
-        </div>
+             onerror="this.style.display='none';">
       </div>
       <div class="person-name">{{ person.name }}</div>
       <div class="person-title">{{ person.title }}</div>
