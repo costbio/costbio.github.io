@@ -49,7 +49,7 @@ people_undergraduate:
 people_alumni:
 - {name: 'Tuba Okur', title: 'Research Assistant and Msc Student', department: 'Bioengineering',  program: 'Bioengineering',
   institution: 'Gebze Technical University', institution_address: '',
-  email: 'tubaokur A T gtu.edu.tr', url: 'tuba-okur', current_position: ''}
+  email: 'tubaokur A T gtu.edu.tr', url: 'tuba-okur', current_position: 'Research Assistant and PhD Student at GTU Bioengineering Department'}
 
 - {name: 'Evren Atak', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University', institution_address: '',
@@ -57,23 +57,23 @@ people_alumni:
 
 - {name: 'Zeynep Özer', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering',
   institution: 'Gebze Technical University', institution_address: '',
-  email: 'z.ozer2019 A T gtu.edu.tr', url: 'zeynep-ozer', current_position: ''}
+  email: 'z.ozer2019 A T gtu.edu.tr', url: 'zeynep-ozer', current_position: 'MSc Student at GTU Bioengineering Department'}
 
 - {name: 'Gülçin Deniz Yavuz', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering',
   institution: 'Gebze Technical University', institution_address: '',
-  email: '', url: 'gulcin-deniz-yavuz', current_position: ''}
+  email: '', url: 'gulcin-deniz-yavuz', current_position: 'Export Purchasing Assistant at Pharmananda 360 Science'}
 
 - {name: 'Ayça Emanetoğlu', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering',
   institution: 'Gebze Technical University', institution_address: '',
-  email: '', url: 'ayca-emanetoglu', current_position: ''}
+  email: '', url: 'ayca-emanetoglu', current_position: 'Sales Support & Customer Operations Assistant Specialist at HLEKS'}
 
 - {name: 'Özge Timür', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering',
   institution: 'Gebze Technical University', institution_address: '',
-  email: '', url: 'ozge-timur', current_position: ''}
+  email: '', url: 'ozge-timur', current_position: 'MSc Student in Computational Science at University of Cologne'}
 
 - {name: 'Edanur Çatalca', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering',
   institution: 'Gebze Technical University', institution_address: '',
-  email: '', url: 'edanur-catalca', current_position: ''}
+  email: '', url: 'edanur-catalca', current_position: 'Marketplace Assistant Specialist at MUDO'}
 
 - {name: 'Şevval Öztürk', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering',
   institution: 'Gebze Technical University', institution_address: '',
@@ -85,33 +85,33 @@ people_alumni:
 
 - {name: 'Zehra İlayda Özdemir', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering',
   institution: 'Gebze Technical University', institution_address: '',
-  email: '', url: 'zehra-ilayda-ozdemir', current_position: ''}
+  email: '', url: 'zehra-ilayda-ozdemir', current_position: 'Customer Service Specialist at DöhlerGroup'}
 
 - {name: 'Begüm Topaloğlu', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering',
   institution: 'Gebze Technical University', institution_address: '',
-  email: '', url: 'begum-topaloglu', current_position: ''}
+  email: '', url: 'begum-topaloglu', current_position: 'MSc Student in Biopharmaceutical Engineering at TU Dortmund'}
 
 - {name: 'Selin Tunçarslan', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering',
   institution: 'Gebze Technical University', institution_address: '',
-  email: '', url: 'selin-tuncarslan', current_position: ''}
+  email: '', url: 'selin-tuncarslan', current_position: 'MSc Student in Evolutionary Genomics and Systems Biology at University of Vienna'}
 
 - {name: 'Esra Büşra Işık', title: 'MSc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University',
   institution_address: 'Gebze Technical University, Bioengineering Department, Gebze, Kocaeli, Türkiye',
-  email: "e.isik2020 A T gtu.edu.tr", url: 'esra-busra-isik', current_position: ''}
+  email: "e.isik2020 A T gtu.edu.tr", url: 'esra-busra-isik', current_position: 'PhD Student in Bioinformatics at The University of Manchester'}
 
-- {name: 'İlayda Erdoğan', title: 'MSc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
+- {name: 'İlayda Tırpan', title: 'MSc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University',
   institution_address: 'Gebze Technical University, Bioengineering Department, Gebze, Kocaeli, Türkiye',
-  email: "i.erdogan2021 A T gtu.edu.tr", url: 'ilayda-erdogan', current_position: ''}
+  email: "i.erdogan2021 A T gtu.edu.tr", url: 'ilayda-erdogan', current_position: 'Molecular Biologist at Gen Era Diagnostics'}
 
 - {name: 'Beyza Kurtoğlu', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering',
   institution: 'Gebze Technical University', institution_address: '',
-  email: 'b.kurtoglu2019 A T gtu.edu.tr',  url: 'beyza-kurtoglu', current_position: ''}
+  email: 'b.kurtoglu2019 A T gtu.edu.tr',  url: 'beyza-kurtoglu', current_position: 'Msc Student in Bioinformatics and Systems Biology at GTU'}
 
 - {name: 'Elif Bengü Kızılay', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering',
   institution: 'Gebze Technical University', institution_address: '',
-  email: ' A T gtu.edu.tr',  url: 'elif-bengu-kizilay', current_position: ''}
+  email: ' A T gtu.edu.tr',  url: 'elif-bengu-kizilay', current_position: 'MSc Student in Bioengineering at Marmara University'}
 
 - {name: 'Muhammet Eren Uluğ', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering',
   institution: 'Gebze Technical University', institution_address: '',
@@ -119,16 +119,16 @@ people_alumni:
 
 - {name: 'Ceylin Karatepe', title: 'Bsc Student (Graduation Project)', department: 'Bioengineering',
   institution: 'Gebze Technical University', institution_address: '',
-  email: ' A T gtu.edu.tr',  url: 'ceylin-karatepe', current_position: ''}
+  email: ' A T gtu.edu.tr',  url: 'ceylin-karatepe', current_position: 'CMC Specialist at AbdiBio'}
 
 - {name: 'Ayşe Sıla Kantarçeken', title: 'Internship Student',
   department: 'Genetics and Bioengineering', institution: 'Izmir University of Economics',
   institution_address: '',
-  email: "", url: '', current_position: ''}
+  email: "", url: '', current_position: 'MSc Student at Istanbul Technical University'}
 
 social:
 - {icon: 'github', link: 'https://github.com/costbio'}
-- {icon: 'twitter', link: 'https://twitter.com/onursercin'}
+- {icon: 'twitter', link: 'https://x.com/onursercin'}
 
 contacts:
 - {name: 'Dr. Onur Serçinoğlu', title: 'Assistant Professor',

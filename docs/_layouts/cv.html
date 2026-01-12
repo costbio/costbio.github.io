@@ -9,10 +9,25 @@ layout: default
       {{ content }}
 
       <!-- Social Links -->
-      {% if page.linkedin or page.twitter %}
+      {% if page.linkedin or page.twitter or page.github or page.google_scholar or page.orcid or page.gtu_profile %}
       <div class="mt-4">
         <h5 class="fw-bold mb-3"><i class="fas fa-link me-2"></i>Connect</h5>
-        <div class="d-flex gap-3">
+        <div class="d-flex gap-3 flex-wrap">
+          {% if page.google_scholar %}
+          <a href="{{ page.google_scholar }}" target="_blank" class="text-decoration-none" title="Google Scholar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 512 512"><path d="M390.9 298.5c0 0 0 .1.1.1c9.2 19.4 14.4 41.1 14.4 64.1c0 83.1-67.4 150.5-150.5 150.5c-83.1 0-150.5-67.4-150.5-150.5c0-32.5 10.3-62.6 27.8-87.2H32l224-192l224 192h-89.1zM254.9 64c83.1 0 150.5 67.4 150.5 150.5c0 8.2-.7 16.2-1.9 24h-89.1c9.2 19.4 14.4 41.1 14.4 64.1c0 3.9-.2 7.8-.5 11.6c-3.8-.5-7.7-.8-11.6-.8c-52.7 0-95.4 42.8-95.4 95.4c0 3.9.2 7.8.5 11.6c-3.8.5-7.7.8-11.6.8c-83.1 0-150.5-67.4-150.5-150.5c0-8.2.7-16.2 1.9-24H32l224-192l224 192h-89.1c-9.2-19.4-14.4-41.1-14.4-64.1c0-83.1 67.4-150.5 150.5-150.5z"/></svg>
+          </a>
+          {% endif %}
+          {% if page.github %}
+          <a href="{{ page.github }}" target="_blank" class="text-decoration-none" title="GitHub">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+          {% endif %}
+          {% if page.orcid %}
+          <a href="{{ page.orcid }}" target="_blank" class="text-decoration-none" title="ORCID">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 512 512"><path d="M294.75 188.19h-45.92V342h47.47c67.62 0 83.12-51.34 83.12-76.91 0-41.64-26.54-76.9-84.67-76.9zM256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm-80.79 360.76h-29.84v-207.5h29.84zm-14.92-231.14a19.57 19.57 0 1 1 19.57-19.57 19.64 19.64 0 0 1-19.57 19.57zM300 369h-81V143.26h81c60.69 0 113.54 44.66 113.54 112.87S360.69 369 300 369z"/></svg>
+          </a>
+          {% endif %}
           {% if page.linkedin %}
           <a href="{{ page.linkedin }}" target="_blank" class="text-decoration-none" title="LinkedIn">
             <i class="fab fa-linkedin fa-2x"></i>
@@ -21,6 +36,11 @@ layout: default
           {% if page.twitter %}
           <a href="{{ page.twitter }}" target="_blank" class="text-decoration-none" title="X (Twitter)">
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+          </a>
+          {% endif %}
+          {% if page.gtu_profile %}
+          <a href="{{ page.gtu_profile }}" target="_blank" class="text-decoration-none" title="GTU Profile">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 512 512"><path d="M243.4 2.6l-224 96c-14 6-21.8 21-18.7 35.8S16.8 160 32 160v8c0 13.3 10.7 24 24 24H456c13.3 0 24-10.7 24-24v-8c15.2 0 28.3-10.7 31.3-25.6s-4.7-29.8-18.7-35.8l-224-96c-8-3.4-17.2-3.4-25.2 0zM128 224H64V420.3c-.6 .3-1.2 .7-1.8 1.1l-48 32c-11.7 7.8-17 22.4-12.9 35.9S17.9 512 32 512H480c14.1 0 26.5-9.2 30.6-22.7s-1.1-28.1-12.9-35.9l-48-32c-.6-.4-1.2-.7-1.8-1.1V224H384V416H344V224H280V416H232V224H168V416H128V224zM256 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>
           </a>
           {% endif %}
         </div>
