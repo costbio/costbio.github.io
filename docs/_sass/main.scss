@@ -19,7 +19,6 @@ body a {
   border-radius: 8px;
   background-color: #f8f9fa;
   padding: 1.25rem;
-  height: 100%;
   transition: box-shadow 0.2s ease-in-out;
 
   &:hover {
@@ -31,7 +30,6 @@ body a {
   text-decoration: none;
   color: inherit;
   display: block;
-  height: 100%;
 
   &:hover {
     color: inherit;
@@ -42,18 +40,23 @@ body a {
   width: 100px;
   height: 100px;
   margin: 0 auto 1rem auto;
+  border-radius: 50%;
+  background-color: #e9ecef;
+  border: 2px solid #dee2e6;
+  overflow: hidden;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .person-image {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid #dee2e6;
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   opacity: 0;
   transition: opacity 0.2s ease-in-out;
 
@@ -63,15 +66,6 @@ body a {
 }
 
 .person-image-placeholder {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: #e9ecef;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid #dee2e6;
-
   i {
     font-size: 2.5rem;
     color: #adb5bd;
@@ -126,18 +120,23 @@ body a {
 .profile-image-container {
   width: 150px;
   height: 150px;
+  border-radius: 50%;
+  background-color: #e9ecef;
+  border: 3px solid #dee2e6;
+  overflow: hidden;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .profile-image {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #dee2e6;
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   opacity: 0;
   transition: opacity 0.2s ease-in-out;
 
@@ -147,15 +146,6 @@ body a {
 }
 
 .profile-image-placeholder {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background-color: #e9ecef;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 3px solid #dee2e6;
-
   i {
     font-size: 4rem;
     color: #adb5bd;
