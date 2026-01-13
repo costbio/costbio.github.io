@@ -54,6 +54,12 @@ body a {
   position: absolute;
   top: 0;
   left: 0;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+
+  &.loaded {
+    opacity: 1;
+  }
 }
 
 .person-image-placeholder {
@@ -132,6 +138,12 @@ body a {
   position: absolute;
   top: 0;
   left: 0;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+
+  &.loaded {
+    opacity: 1;
+  }
 }
 
 .profile-image-placeholder {

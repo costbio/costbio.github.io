@@ -23,7 +23,7 @@ layout: default
           <img src="{{ site.baseurl }}/assets/images/people/{{ person.url }}.jpg"
                alt="{{ person.name }}"
                class="person-image"
-               onerror="this.style.display='none';">
+               onload="this.classList.add('loaded');">
         </div>
         <div class="person-name">{{ person.name }}</div>
         <div class="person-title">{{ person.title }}</div>
@@ -68,7 +68,7 @@ layout: default
           <img src="{{ site.baseurl }}/assets/images/people/{{ person.url }}.jpg"
                alt="{{ person.name }}"
                class="person-image"
-               onerror="this.style.display='none';">
+               onload="this.classList.add('loaded');">
         </div>
         <div class="person-name">{{ person.name }}</div>
         <div class="person-title">{{ person.title }}</div>
@@ -113,7 +113,7 @@ layout: default
         <img src="{{ site.baseurl }}/assets/images/people/{{ person.url }}.jpg"
              alt="{{ person.name }}"
              class="person-image"
-             onerror="this.style.display='none';">
+             onload="this.classList.add('loaded');">
       </div>
       <div class="person-name">{{ person.name }}</div>
       <div class="person-title">{{ person.title }}</div>

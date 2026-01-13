@@ -30,7 +30,7 @@ Find the person data from settings.yml based on the page's person_id
       <img src="{{ site.baseurl }}/assets/images/people/{{ person.url }}.jpg"
            alt="{{ person.name }}"
            class="profile-image"
-           onerror="this.style.display='none';">
+           onload="this.classList.add('loaded');">
     </div>
     {% if person.google_scholar != '' or person.github != '' or person.linkedin != '' %}
     <div class="profile-social-links mt-3">
