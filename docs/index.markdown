@@ -1,14 +1,21 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
 
-Welcome to the official website of the Computational Structural Biology Research Group, a part of the <a href="https://www.gtu.edu.tr/kategori/307/3/biyomuhendislik.aspx">Department of Bioengineering</a> at <a href="https://www.gtu.edu.tr">Gebze Technical University</a>'s <a href="https://www.gtu.edu.tr/kategori/41/3/display.aspx?languageId=1">Faculty of Engineering</a>. We are also affiliated with the <a href="https://www.systemsbiology.info.tr">**Computational Systems Biology Research Group**</a>.
+Welcome to the Computational Structural Biology Research Group at [Gebze Technical University](https://www.gtu.edu.tr). We are part of the [Department of Bioengineering](https://www.gtu.edu.tr/kategori/307/3/biyomuhendislik.aspx) and affiliated with the [Computational Systems Biology Research Group](https://www.systemsbiology.info.tr).
 
-Our group is dedicated to the application of computational biology, bioinformatics, and drug design methods to study the structures of proteins with biomedical importance. By understanding how these proteins work, we aim to facilitate the development of novel applications such as drug discovery and immunotherapy.
+We use computational methods to understand how protein structure shapes function—and how to intervene when things go wrong. Our work combines molecular dynamics simulations, molecular docking, virtual screening, and protein network analysis to study allosteric mechanisms, residue communication pathways, and structure-function relationships in biomedically important proteins.
 
-Our current research interests include structure-function characterizations of MHC and NorA, and discovery of inhibitors of ERK5 and Androgen Receptor. Additionally, we collaborate with experimental groups conducting wet-lab research on protein structures to enable synergistic theory-experiment partnerships. Our group also develops software for scientific research purposes to aid in our computational biology and drug design research.
+## Research Focus
 
-Please feel free to contact our Principal Investigator, Dr. Onur Serçinoğlu, at <a href="mailto:osercinoglu@gtu.edu.tr">osercinoglu AT gtu.edu.tr</a> if you are interested in collaborating with us.
+Our research is organized around three pillars:
+
+- **Immunoinformatics** — Structure and dynamics of MHC molecules, peptide-MHC stability, T-cell receptor interactions, and epitope prediction for immunotherapy applications
+- **Small-Molecule Drug Discovery** — Identification of inhibitors for targets including ERK5, androgen receptor, and bacterial efflux pumps (NorA, BmrA), with emphasis on allosteric sites and drug repurposing
+- **Research Software Development** — Tools for the scientific community, including [gRINN](https://doi.org/10.1093/nar/gky381) and [ProSNEx](https://doi.org/10.1093/nar/gkz390), published in *Nucleic Acids Research*
+
+We collaborate with experimental groups to enable synergistic theory-experiment partnerships, bridging computational predictions with wet-lab validation.
+
+## Contact
+
+Interested in collaboration or joining our group? Contact Dr. Onur Serçinoğlu at [osercinoglu@gtu.edu.tr](mailto:osercinoglu@gtu.edu.tr).
