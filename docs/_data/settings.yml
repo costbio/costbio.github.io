@@ -47,14 +47,14 @@ people_graduate:
   email: 'e.cevik2019 A T gtu.edu.tr', url: 'emre-cevik',
   google_scholar: '',
   github: '',
-  linkedin: ''}
+  linkedin: 'https://www.linkedin.com/in/emrecev/'}
 
 - {name: 'Öyküm Önel', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University', institution_address: '',
   email: 'o.onel2019 A T gtu.edu.tr', url: 'oykum-onel',
   google_scholar: '',
   github: '',
-  linkedin: ''}
+  linkedin: 'https://www.linkedin.com/in/%C3%B6yk%C3%BCm-%C3%B6nel-12269b1a3/'}
 
 - {name: 'Alper Tanrıkulu', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University', institution_address: '',
