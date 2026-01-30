@@ -63,6 +63,13 @@ people_graduate:
   github: '',
   linkedin: ''}
 
+- {name: 'Dilara Önal', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
+  institution: 'Gebze Technical University', institution_address: '',
+  email: 'd.onal2018 A T gtu.edu.tr', url: 'dilara-onal',
+  google_scholar: '',
+  github: '',
+  linkedin: 'https://www.linkedin.com/in/dilara-onal-041ab9201/'}
+
 people_undergraduate:
 
 people_alumni:
