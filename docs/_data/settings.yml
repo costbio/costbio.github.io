@@ -44,7 +44,7 @@ people_graduate:
 
 - {name: 'Emre Taha Çevik', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University', institution_address: '',
-  email: 'e.cevik2019 A T gtu.edu.tr', url: 'emre-cevik',
+  email: 'e.cevik2019 A T gtu.edu.tr', url: 'emre-cevik', image: 'emre-taha-cevik.png',
   google_scholar: '',
   github: '',
   linkedin: 'https://www.linkedin.com/in/emrecev/'}

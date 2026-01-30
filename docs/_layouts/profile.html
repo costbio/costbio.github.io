@@ -27,7 +27,7 @@ Find the person data from settings.yml based on the page's person_id
       <div class="profile-image-placeholder">
         <i class="fas fa-user"></i>
       </div>
-      <img src="{{ site.baseurl }}/assets/images/people/{{ person.url }}.jpg"
+      <img src="{{ site.baseurl }}/assets/images/people/{% if person.image %}{{ person.image }}{% else %}{{ person.url }}.jpg{% endif %}"
            alt="{{ person.name }}"
            class="profile-image"
            onload="this.classList.add('loaded');">

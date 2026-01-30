@@ -20,7 +20,7 @@ layout: default
           <div class="person-image-placeholder">
             <i class="fas fa-user"></i>
           </div>
-          <img src="{{ site.baseurl }}/assets/images/people/{{ person.url }}.jpg"
+          <img src="{{ site.baseurl }}/assets/images/people/{% if person.image %}{{ person.image }}{% else %}{{ person.url }}.jpg{% endif %}"
                alt="{{ person.name }}"
                class="person-image"
                onload="this.classList.add('loaded');">
@@ -65,7 +65,7 @@ layout: default
           <div class="person-image-placeholder">
             <i class="fas fa-user"></i>
           </div>
-          <img src="{{ site.baseurl }}/assets/images/people/{{ person.url }}.jpg"
+          <img src="{{ site.baseurl }}/assets/images/people/{% if person.image %}{{ person.image }}{% else %}{{ person.url }}.jpg{% endif %}"
                alt="{{ person.name }}"
                class="person-image"
                onload="this.classList.add('loaded');">
@@ -110,7 +110,7 @@ layout: default
         <div class="person-image-placeholder">
           <i class="fas fa-user"></i>
         </div>
-        <img src="{{ site.baseurl }}/assets/images/people/{{ person.url }}.jpg"
+        <img src="{{ site.baseurl }}/assets/images/people/{% if person.image %}{{ person.image }}{% else %}{{ person.url }}.jpg{% endif %}"
              alt="{{ person.name }}"
              class="person-image"
              onload="this.classList.add('loaded');">
