@@ -33,7 +33,7 @@ people_graduate:
   email: 's.sahin2022 A T gtu.edu.tr', url: 'suara-sahin',
   google_scholar: '',
   github: '',
-  linkedin: ''}
+  linkedin: 'https://www.linkedin.com/in/%C5%9Fuara-%C5%9Fahin-b61617249/'}
 
 - {name: 'Seher Burcu Özkan', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University', institution_address: '',
