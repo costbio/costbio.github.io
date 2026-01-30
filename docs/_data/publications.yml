@@ -23,7 +23,8 @@ immunoinformatics:
   authors: 'Serçinoğlu, O.'
   year: '2025'
   journal: 'Turkish Journal of Immunology, Volume 13, Issue 3, Pages 132-145'
-  url: 'https://turkishimmunology.org/'
+  doi: '10.36519/TJI.2025.576'
+  url: 'https://turkishimmunology.org/article/peptide-induced-stabilization-of-mhc/'
 
 - name: 'Computational Prediction of Immune Epitopes'
   authors: 'Atak, E., Eke, T. E., Serçinoğlu, O.'
