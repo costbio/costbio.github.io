@@ -28,13 +28,6 @@ people_graduate:
   github: '',
   linkedin: ''}
 
-- {name: 'Hatice Nur Aydın', title: 'PhD Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
-  institution: 'Gebze Technical University', institution_address: '',
-  email: 'haydin2025 A T gtu.edu.tr', url: 'hatice-nur-aydin',
-  google_scholar: '',
-  github: '',
-  linkedin: ''}
-
 - {name: 'Şuara Şahin', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University', institution_address: '',
   email: 's.sahin2022 A T gtu.edu.tr', url: 'suara-sahin',
