@@ -40,7 +40,7 @@ people_graduate:
   email: 's.ozkan2025 A T gtu.edu.tr', url: 'seher-burcu-ozkan',
   google_scholar: '',
   github: '',
-  linkedin: ''}
+  linkedin: 'https://www.linkedin.com/in/sburcuozkan/'}
 
 - {name: 'Emre Taha Çevik', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University', institution_address: '',
