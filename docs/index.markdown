@@ -9,9 +9,9 @@ We use computational methods to understand how protein structure shapes function
 Our research spans three main areas:
 
 - **Immunoinformatics** — Structure and dynamics of MHC molecules, peptide-MHC stability, T-cell receptor interactions, and epitope prediction for immunotherapy applications
-- **Small-Molecule Drug Discovery** — Identification of inhibitors for targets including ERK5, androgen receptor, and bacterial efflux pumps (NorA, BmrA), with emphasis on allosteric sites and drug repurposing
+- **Small-Molecule Drug Discovery** — Identification of inhibitors for targets including ERK5, androgen receptor, and bacterial efflux pumps (NorA, BmrA), with emphasis on allosteric sites, polypharmacology, and drug repurposing
 - **Research Software Development** — Tools for the scientific community, including [gRINN](https://grinn.bio-cloud.site)
 
-We collaborate with experimental groups to bridge computational predictions with wet-lab validation.
+Although we are a purely computational research group, we frequently collaborate with both computational and experimental groups to bridge computational predictions with wet-lab validation and to tackle complex problems from multiple angles.
 
 Interested in collaboration or joining our group? Contact Dr. Onur Serçinoğlu at [osercinoglu@gtu.edu.tr](mailto:osercinoglu@gtu.edu.tr).
