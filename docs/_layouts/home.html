@@ -8,9 +8,14 @@ layout: default
     {{ content }}
   </div>
   <div class="col-md-4">
-    <h3 class="fw-bold">Updates</h3>
-    {% for post in site.posts %}
-      <p class="mb-2"><a href="{{ post.url }}">{{ post.title }}</a><br><small class="text-muted">{{ post.date | date: "%B %-d, %Y" }}</small></p>
-    {% endfor %}
+    <h3 class="fw-bold border-bottom pb-2 mb-3">Updates</h3>
+    <div class="updates-list">
+      {% for post in site.posts limit:5 %}
+      <a href="{{ post.url }}" class="update-item">
+        <span class="update-title">{{ post.title }}</span>
+        <span class="update-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+      </a>
+      {% endfor %}
+    </div>
   </div>
 </div>
