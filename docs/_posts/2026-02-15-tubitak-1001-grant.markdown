@@ -1,0 +1,16 @@
+---
+layout: post
+title: "New Grant: TUBITAK 1001 Project on Kinome-Wide Discovery of Selective and Allosteric Kinase Inhibitors"
+date: 2026-02-15
+categories: research grant
+---
+
+We are excited to announce that our research project submitted under the TUBITAK 1001 program has been selected for funding.
+
+### Development of an AI-Based Innovative Bioinformatics Workflow for Kinome-Wide Discovery of Selective and Allosteric Kinase Inhibitors
+
+In protein kinase inhibitor discovery, most approaches developed over the past two decades have focused on the orthosteric binding site. While this has led to the discovery of new drug molecules, selectivity and side-effect challenges remain prevalent. Moreover, only a limited number of kinases have been targeted for drug development, leaving many "dark" kinases — which are implicated in numerous cancer types — without any approved therapeutics. Our project aims to go beyond these limitations by systematically identifying alternative targetable sites, such as allosteric pockets and cryptic binding sites, at the kinome scale.
+
+In this project, we aim to develop and experimentally validate a bioinformatics workflow that integrates machine learning-based conformational sampling, pocket detection algorithms, and GPU-accelerated virtual screening. This approach is designed to overcome the computational complexity that has made kinome-wide application of classical methods infeasible, and to accelerate the discovery of more selective inhibitors.
+
+We would like to thank our project advisors Prof. Dr. Asuman Demiroğlu-Zergeroğlu from the Department of Molecular Biology and Genetics at Gebze Technical University, and Prof. Dr. Gunay Yetik Anacak from Acıbadem University, for their valuable guidance. We also thank our project researcher Res. Asst. Gülseren Turhal for her contributions to the project preparation.
