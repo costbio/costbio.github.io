@@ -28,7 +28,7 @@ body a {
 
   &:hover {
     color: $accentHover;
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
@@ -218,12 +218,16 @@ body a {
 .updates-list {
   display: flex;
   flex-direction: column;
+  gap: 0.75rem;
 }
 
 .update-item {
   display: block;
-  padding: 0.6rem 0.75rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid #e2e8f0;
   border-left: 3px solid $accentBorder;
+  border-radius: 0 6px 6px 0;
+  background-color: #fafbfc;
   text-decoration: none;
   color: inherit;
   transition: all 0.2s ease-in-out;
@@ -231,12 +235,10 @@ body a {
   &:hover {
     background-color: $accentLight;
     border-left-color: $accentColor;
+    border-color: $accentBorder;
     color: inherit;
     text-decoration: none;
-  }
-
-  & + .update-item {
-    border-top: 1px solid #e9ecef;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
   }
 }
 
@@ -244,14 +246,15 @@ body a {
   display: block;
   font-weight: 600;
   font-size: 0.92rem;
+  line-height: 1.4;
   color: $bodyColor;
 }
 
 .update-date {
   display: block;
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   color: #6c757d;
-  margin-top: 0.15rem;
+  margin-top: 0.35rem;
 }
 
 // Nav label styling
