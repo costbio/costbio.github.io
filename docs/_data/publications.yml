@@ -138,6 +138,13 @@ drug_discovery:
   url: ''
 
 software_tools:
+- name: 'i-gRINN: a next-generation web server for protein energy network analysis of heterogeneous biomolecular systems with natural language-based data exploration'
+  authors: 'Serçinoğlu, O., Eke, T. E., Ozbek, P.'
+  year: '2026'
+  journal: 'Nucleic Acids Res.'
+  doi: '10.1093/nar/gkag516'
+  url: 'https://doi.org/10.1093/nar/gkag516'
+
 - name: 'gRINN: A tool for calculation of residue interaction energies and protein energy network analysis of molecular dynamics simulations'
   authors: 'Serçinoğlu, O., Ozbek, P.'
   year: '2018'
