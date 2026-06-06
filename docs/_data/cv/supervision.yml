@@ -1,0 +1,45 @@
+completed:
+- student: 'Tuba Okur'
+  degree: 'MSc, Bioengineering'
+  institution: 'Gebze Technical University'
+  year: '2025'
+  thesis: 'Rational design of L-alanine dehydrogenase variants for enhanced catalytic efficiency'
+  role: 'Supervisor'
+
+- student: 'İlayda Erdoğan'
+  degree: 'MSc, Bioinformatics & Systems Biology'
+  institution: 'Gebze Technical University'
+  year: '2024'
+  thesis: 'Computational investigation of potential allosteric ERK5 kinase inhibitors'
+  role: 'Supervisor'
+
+- student: 'Esra Büşra Işık'
+  degree: 'MSc, Bioinformatics & Systems Biology'
+  institution: 'Gebze Technical University'
+  year: '2023'
+  thesis: 'Computational characterization of ligand specificity and promiscuity of Staphylococcus aureus NorA efflux pump'
+  role: 'Supervisor'
+
+- student: 'Halil İbrahim Özdemir'
+  degree: 'MSc, Bioengineering'
+  institution: 'Marmara University'
+  year: '2021'
+  thesis: 'Development of a software tool for investigation of allosteric communication within protein structures via energy dissipation in molecular dynamics simulations'
+  role: 'Co-supervisor'
+
+ongoing:
+- student: 'Şuara Şahin'
+  degree: 'MSc, Bioinformatics & Systems Biology'
+  institution: 'Gebze Technical University'
+
+- student: 'Dilara Önal'
+  degree: 'MSc, Bioinformatics & Systems Biology'
+  institution: 'Gebze Technical University'
+
+- student: 'Öyküm Önel'
+  degree: 'MSc, Bioinformatics & Systems Biology'
+  institution: 'Gebze Technical University'
+
+- student: 'Emre Taha Çevik'
+  degree: 'MSc, Bioinformatics & Systems Biology'
+  institution: 'Gebze Technical University'

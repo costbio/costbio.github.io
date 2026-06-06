@@ -52,6 +52,21 @@ layout: default
   <!-- Right Main Content -->
   <div class="col-lg-8">
 
+    <!-- Academic Positions -->
+    <div class="mb-5">
+      <h4 class="fw-bold border-bottom pb-2 mb-4"><i class="fas fa-briefcase me-2"></i>Academic Positions</h4>
+      {% for item in site.data.cv.academic-experience %}
+        <div class="mb-4">
+          <div class="d-flex justify-content-between align-items-start flex-wrap">
+            <p class="fw-bold mb-1">{{ item.title }}</p>
+            <span class="text-muted small">{{ item.year }}</span>
+          </div>
+          <p class="text-secondary mb-1">{{ item.institution }}{% if item.location %}, {{ item.location }}{% endif %}</p>
+          {% if item.description %}<p class="small mb-0">{{ item.description }}</p>{% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
     <!-- Education -->
     <div class="mb-5">
       <h4 class="fw-bold border-bottom pb-2 mb-4"><i class="fas fa-graduation-cap me-2"></i>Education</h4>
@@ -68,32 +83,74 @@ layout: default
       {% endfor %}
     </div>
 
-    <!-- Work Experience -->
+    <!-- Research Funding -->
     <div class="mb-5">
-      <h4 class="fw-bold border-bottom pb-2 mb-4"><i class="fas fa-briefcase me-2"></i>Work Experience</h4>
-      {% for item in site.data.cv.academic-experience %}
-        <div class="mb-4">
-          <div class="d-flex justify-content-between align-items-start flex-wrap">
-            <p class="fw-bold mb-1">{{ item.title }}</p>
-            <span class="text-muted small">{{ item.year }}</span>
-          </div>
-          <p class="text-secondary mb-1">{{ item.institution }}{% if item.location %}, {{ item.location }}{% endif %}</p>
-          {% if item.description %}<p class="small mb-1">{{ item.description }}</p>{% endif %}
-          {% if item.courses %}<p class="small mb-0"><em>Courses:</em> {{ item.courses }}</p>{% endif %}
-        </div>
-      {% endfor %}
-    </div>
-
-    <!-- Research Projects -->
-    <div class="mb-5">
-      <h4 class="fw-bold border-bottom pb-2 mb-4"><i class="fas fa-flask me-2"></i>Research Projects</h4>
+      <h4 class="fw-bold border-bottom pb-2 mb-4"><i class="fas fa-flask me-2"></i>Research Funding</h4>
       {% for item in site.data.cv.research-projects %}
         <div class="mb-3">
           <div class="d-flex justify-content-between align-items-start flex-wrap">
             <p class="fw-bold mb-1">{{ item.title }}</p>
             <span class="text-muted small">{{ item.year }}</span>
           </div>
-          <p class="small mb-0">Funded by: {{ item.funder }} | Role: {{ item.role }}</p>
+          <p class="small mb-0">{{ item.funder }} · {{ item.role }}{% if item.budget %} · {{ item.budget }}{% endif %}</p>
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- Supervision -->
+    <div class="mb-5">
+      <h4 class="fw-bold border-bottom pb-2 mb-4"><i class="fas fa-users me-2"></i>Supervision</h4>
+      {% if site.data.cv.supervision.completed %}
+      <h6 class="text-muted text-uppercase small fw-bold mb-3">Completed</h6>
+      {% for item in site.data.cv.supervision.completed %}
+        <div class="mb-3">
+          <div class="d-flex justify-content-between align-items-start flex-wrap">
+            <p class="fw-bold mb-1">{{ item.student }}</p>
+            <span class="text-muted small">{{ item.year }}</span>
+          </div>
+          <p class="text-secondary small mb-1">{{ item.degree }}, {{ item.institution }}{% if item.role == 'Co-supervisor' %} <em>(co-supervisor)</em>{% endif %}</p>
+          {% if item.thesis %}<p class="small fst-italic mb-0">"{{ item.thesis }}"</p>{% endif %}
+        </div>
+      {% endfor %}
+      {% endif %}
+      {% if site.data.cv.supervision.ongoing %}
+      <h6 class="text-muted text-uppercase small fw-bold mb-3 mt-4">Ongoing</h6>
+      {% for item in site.data.cv.supervision.ongoing %}
+        <div class="mb-2">
+          <p class="mb-0 fw-bold">{{ item.student }} <span class="text-secondary fw-normal small">— {{ item.degree }}, {{ item.institution }}</span></p>
+        </div>
+      {% endfor %}
+      {% endif %}
+    </div>
+
+    <!-- Teaching -->
+    <div class="mb-5">
+      <h4 class="fw-bold border-bottom pb-2 mb-4"><i class="fas fa-chalkboard me-2"></i>Teaching</h4>
+      {% for item in site.data.cv.academic-experience %}
+        {% if item.courses %}
+        <div class="mb-3">
+          <div class="d-flex justify-content-between align-items-start flex-wrap">
+            <p class="fw-bold mb-1">{{ item.institution }}</p>
+            <span class="text-muted small">{{ item.year }}</span>
+          </div>
+          <p class="small mb-0">{{ item.courses }}</p>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <!-- Software & Tools -->
+    <div class="mb-5">
+      <h4 class="fw-bold border-bottom pb-2 mb-4"><i class="fas fa-code me-2"></i>Software &amp; Tools</h4>
+      {% for item in site.data.cv.software-tools %}
+        <div class="mb-3">
+          <div class="d-flex justify-content-between align-items-start flex-wrap">
+            <p class="fw-bold mb-1">
+              {% if item.url %}<a href="{{ item.url }}" target="_blank" class="text-decoration-none">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}
+            </p>
+            <span class="text-muted small"><a href="https://doi.org/{{ item.doi }}" target="_blank" class="text-decoration-none text-muted">{{ item.journal }}, {{ item.year }}</a></span>
+          </div>
+          <p class="small mb-0">{{ item.description }}</p>
         </div>
       {% endfor %}
     </div>
@@ -102,6 +159,30 @@ layout: default
     <div class="mb-5">
       <h4 class="fw-bold border-bottom pb-2 mb-4"><i class="fas fa-book-open me-2"></i>Publications</h4>
       <p>For a complete list of publications, please visit the <a href="/publications"><i class="fas fa-arrow-right me-1"></i>Publications page</a>.</p>
+    </div>
+
+    <!-- Invited Talks -->
+    <div class="mb-5">
+      <h4 class="fw-bold border-bottom pb-2 mb-4"><i class="fas fa-microphone me-2"></i>Invited Talks</h4>
+      {% for item in site.data.cv.invited-talks %}
+        <div class="mb-3">
+          <div class="d-flex justify-content-between align-items-start flex-wrap">
+            <p class="fw-bold mb-1">{{ item.title }}</p>
+            <span class="text-muted small">{{ item.year }}</span>
+          </div>
+          <p class="small mb-0 text-secondary">{{ item.event }}, {{ item.location }}</p>
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- Service -->
+    <div class="mb-5">
+      <h4 class="fw-bold border-bottom pb-2 mb-4"><i class="fas fa-tasks me-2"></i>Service</h4>
+      {% for item in site.data.cv.service %}
+        <div class="mb-2">
+          <p class="mb-0"><span class="fw-bold">{{ item.role }}</span>{% if item.organization %}, <em>{{ item.organization }}</em>{% endif %}</p>
+        </div>
+      {% endfor %}
     </div>
 
     <!-- Skills -->
@@ -123,7 +204,7 @@ layout: default
 
     <!-- Awards -->
     <div class="mb-5">
-      <h4 class="fw-bold border-bottom pb-2 mb-4"><i class="fas fa-award me-2"></i>Awards</h4>
+      <h4 class="fw-bold border-bottom pb-2 mb-4"><i class="fas fa-award me-2"></i>Awards &amp; Scholarships</h4>
       {% for item in site.data.cv.awards %}
         <div class="mb-2">
           <p class="mb-0"><span class="fw-bold">{{ item.title }}</span> <span class="text-muted small">({{ item.type }})</span></p>
