@@ -70,6 +70,13 @@ people_graduate:
   github: '',
   linkedin: 'https://www.linkedin.com/in/dilara-onal-041ab9201/'}
 
+- {name: 'Yaren Berin Dinç', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
+  institution: 'Gebze Technical University', institution_address: '',
+  email: '', url: 'yaren-berin-dinc',
+  google_scholar: '',
+  github: '',
+  linkedin: 'https://www.linkedin.com/in/yarenberindinc/'}
+
 people_undergraduate:
 
 people_alumni:
