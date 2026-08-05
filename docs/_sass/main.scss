@@ -267,6 +267,35 @@ body a {
   }
 }
 
+// Post photo gallery: thumbnails linking to full-size images
+.post-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+
+  a {
+    display: block;
+    line-height: 0;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: box-shadow 0.2s ease-in-out, border-color 0.2s ease-in-out;
+
+    &:hover {
+      border-color: $accentBorder;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    }
+  }
+
+  img {
+    display: block;
+    height: 220px;
+    width: auto;
+    max-width: 100%;
+  }
+}
+
 // Nav label styling
 .navbar-nav .nav-link {
   color: #495057;
