@@ -77,6 +77,20 @@ people_graduate:
   github: '',
   linkedin: 'https://www.linkedin.com/in/yarenberindinc/'}
 
+- {name: 'Raziye Kartal', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
+  institution: 'Gebze Technical University', institution_address: '',
+  email: '', url: 'raziye-kartal',
+  google_scholar: '',
+  github: '',
+  linkedin: 'https://www.linkedin.com/in/raziye-kartal/'}
+
+- {name: 'Ahmet Hüdai Başyemenici', title: 'Msc Student', program: 'Artificial Intelligence',
+  institution: 'Gebze Technical University', institution_address: '',
+  email: '', url: 'ahmet-hudai-basyemenici',
+  google_scholar: '',
+  github: '',
+  linkedin: ''}
+
 people_undergraduate:
 
 people_alumni:
