@@ -28,13 +28,6 @@ people_graduate:
   github: '',
   linkedin: ''}
 
-- {name: 'Şuara Şahin', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
-  institution: 'Gebze Technical University', institution_address: '',
-  email: 's.sahin2022 A T gtu.edu.tr', url: 'suara-sahin',
-  google_scholar: '',
-  github: '',
-  linkedin: 'https://www.linkedin.com/in/%C5%9Fuara-%C5%9Fahin-b61617249/'}
-
 - {name: 'Seher Burcu Özkan', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University', institution_address: '',
   email: 's.ozkan2025 A T gtu.edu.tr', url: 'seher-burcu-ozkan',
@@ -87,6 +80,13 @@ people_graduate:
 people_undergraduate:
 
 people_alumni:
+- {name: 'Şuara Şahin', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
+  institution: 'Gebze Technical University', institution_address: '',
+  email: 's.sahin2022 A T gtu.edu.tr', url: 'suara-sahin', current_position: '',
+  google_scholar: '',
+  github: '',
+  linkedin: 'https://www.linkedin.com/in/%C5%9Fuara-%C5%9Fahin-b61617249/'}
+
 - {name: 'Dilara Önal', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University', institution_address: '',
   email: 'd.onal2018 A T gtu.edu.tr', url: 'dilara-onal', current_position: '',
