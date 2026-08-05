@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dilara Önal Completes Her MSc"
-date: 2026-08-06
+date: 2026-08-06 00:30:00 +0300
 categories: news people
 ---
 
