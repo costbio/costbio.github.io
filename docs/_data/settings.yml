@@ -63,13 +63,6 @@ people_graduate:
   github: '',
   linkedin: ''}
 
-- {name: 'Dilara Önal', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
-  institution: 'Gebze Technical University', institution_address: '',
-  email: 'd.onal2018 A T gtu.edu.tr', url: 'dilara-onal',
-  google_scholar: '',
-  github: '',
-  linkedin: 'https://www.linkedin.com/in/dilara-onal-041ab9201/'}
-
 - {name: 'Yaren Berin Dinç', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
   institution: 'Gebze Technical University', institution_address: '',
   email: '', url: 'yaren-berin-dinc',
@@ -94,6 +87,13 @@ people_graduate:
 people_undergraduate:
 
 people_alumni:
+- {name: 'Dilara Önal', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
+  institution: 'Gebze Technical University', institution_address: '',
+  email: 'd.onal2018 A T gtu.edu.tr', url: 'dilara-onal', current_position: '',
+  google_scholar: '',
+  github: '',
+  linkedin: 'https://www.linkedin.com/in/dilara-onal-041ab9201/'}
+
 - {name: 'Tuba Okur', title: 'Research Assistant and Msc Student', department: 'Bioengineering',  program: 'Bioengineering',
   institution: 'Gebze Technical University', institution_address: '',
   email: 'tubaokur A T gtu.edu.tr', url: 'tuba-okur', current_position: 'Research Assistant and PhD Student at GTU Bioengineering Department'}
