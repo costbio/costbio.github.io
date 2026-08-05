@@ -30,6 +30,10 @@ github_username: costbio
 # Build settings
 markdown: kramdown
 
+# Post dates are written in local time; without this Jekyll assumes UTC and
+# hides posts dated "today" until UTC catches up.
+timezone: Europe/Istanbul
+
 # Uncomment if testing locally
 #theme: academic-jekyll-theme
 
