@@ -1,4 +1,25 @@
 completed:
+- student: 'Öyküm Önel'
+  degree: 'MSc, Bioinformatics & Systems Biology'
+  institution: 'Gebze Technical University'
+  year: '2026'
+  thesis: 'Investigation of mutation-induced changes in HER2 protein dynamics'
+  role: 'Supervisor'
+
+- student: 'Şuara Şahin'
+  degree: 'MSc, Bioinformatics & Systems Biology'
+  institution: 'Gebze Technical University'
+  year: '2026'
+  thesis: 'Assessment of molecular docking-based target fishing methods for drug discovery'
+  role: 'Supervisor'
+
+- student: 'Dilara Önal'
+  degree: 'MSc, Bioinformatics & Systems Biology'
+  institution: 'Gebze Technical University'
+  year: '2026'
+  thesis: 'Deep learning-based prediction of protein conformational ensembles'
+  role: 'Supervisor'
+
 - student: 'Tuba Okur'
   degree: 'MSc, Bioengineering'
   institution: 'Gebze Technical University'
@@ -28,18 +49,6 @@ completed:
   role: 'Co-supervisor'
 
 ongoing:
-- student: 'Şuara Şahin'
-  degree: 'MSc, Bioinformatics & Systems Biology'
-  institution: 'Gebze Technical University'
-
-- student: 'Dilara Önal'
-  degree: 'MSc, Bioinformatics & Systems Biology'
-  institution: 'Gebze Technical University'
-
-- student: 'Öyküm Önel'
-  degree: 'MSc, Bioinformatics & Systems Biology'
-  institution: 'Gebze Technical University'
-
 - student: 'Emre Taha Çevik'
   degree: 'MSc, Bioinformatics & Systems Biology'
   institution: 'Gebze Technical University'

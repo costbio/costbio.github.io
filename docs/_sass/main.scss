@@ -267,6 +267,33 @@ body a {
   }
 }
 
+// Header: size the group logo to span a whole nav item — icon, the gap beneath
+// it, and the text label — so its top and bottom line up with the nav column.
+$navIconSize: 100px;
+$navIconGap: 0.5rem;    // .mb-2 under each nav icon
+$navLabelLine: 1.5rem;  // 1rem body font-size x 1.5 line-height
+
+.nav-icon {
+  display: block;       // block, so no inline baseline gap creeps in below it
+  width: $navIconSize;
+  height: $navIconSize;
+}
+
+.site-logo {
+  display: block;
+  height: calc(#{$navIconSize} + #{$navIconGap} + #{$navLabelLine});
+  width: auto;
+  margin-bottom: 0;     // cancel the theme's global img margin-bottom
+}
+
+// The full-height logo is wider than a narrow phone; let it scale down instead.
+@media (max-width: 575.98px) {
+  .site-logo {
+    height: auto;
+    width: 100%;
+  }
+}
+
 // Post photo gallery: thumbnails linking to full-size images
 .post-gallery {
   display: flex;
