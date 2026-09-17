@@ -70,6 +70,27 @@ people_graduate:
   github: '',
   linkedin: ''}
 
+- {name: 'Duygu İrem Özger', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
+  institution: 'Gebze Technical University', institution_address: '',
+  email: '', url: 'duygu-irem-ozger',
+  google_scholar: '',
+  github: '',
+  linkedin: 'https://www.linkedin.com/in/duygu-ozger/'}
+
+- {name: 'Dicle Gülsüm Duman', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
+  institution: 'Gebze Technical University', institution_address: '',
+  email: '', url: 'dicle-gulsum-duman',
+  google_scholar: '',
+  github: '',
+  linkedin: 'https://www.linkedin.com/in/dicle-g%C3%BCls%C3%BCm-duman/'}
+
+- {name: 'Sude Karaoğlan', title: 'Msc Student', department: 'Bioengineering', program: 'Bioinformatics and Systems Biology',
+  institution: 'Gebze Technical University', institution_address: '',
+  email: '', url: 'sude-karaoglan',
+  google_scholar: '',
+  github: '',
+  linkedin: 'https://www.linkedin.com/in/sudekaraoglan/'}
+
 people_undergraduate:
 
 people_alumni:
