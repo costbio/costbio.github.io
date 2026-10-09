@@ -1,12 +1,12 @@
-<header class="d-flex flex-column flex-md-row align-items-end align-items-md-start pb-3 mb-5 border-bottom">
-  <div class="me-3 mb-0">
+<header class="d-flex flex-column flex-xl-row align-items-center align-items-xl-start pb-3 mb-5 border-bottom">
+  <div class="me-xl-3 mb-3 mb-xl-0">
         <a href="{{ site.github.url }}" class="d-block">
           <img src="{{ site.github.url }}/assets/images/costbio.png" alt="Logo" class="site-logo">
         </a>
   </div>
-  <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+  <nav class="site-nav ms-xl-auto">
     {% for item in site.data.settings.menu %}
-      <div class="text-center me-3">
+      <div class="text-center">
         <a href="{{ item.url }}" class="d-block">
           <img src="{{ site.github.url }}/assets/images/{{ item.icon }}.png" alt="{{ item.name }}" width="100" height="100" class="nav-icon mb-2">
         </a>

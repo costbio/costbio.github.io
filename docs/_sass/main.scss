@@ -273,10 +273,25 @@ $navIconSize: 100px;
 $navIconGap: 0.5rem;    // .mb-2 under each nav icon
 $navLabelLine: 1.5rem;  // 1rem body font-size x 1.5 line-height
 
+// Nav items sit beside the logo from xl up; below that the header stacks and
+// the items wrap onto centred rows instead of overflowing the page.
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 0.75rem;
+
+  @media (min-width: 1200px) {
+    flex-wrap: nowrap;
+  }
+}
+
 .nav-icon {
   display: block;       // block, so no inline baseline gap creeps in below it
   width: $navIconSize;
   height: $navIconSize;
+  margin-left: auto;    // centre the icon when its label is wider
+  margin-right: auto;
 }
 
 .site-logo {

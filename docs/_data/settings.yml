@@ -2,6 +2,7 @@ menu:
 - {name: 'people', url: '/people', icon: 'boat'}
 - {name: 'publications', url: '/publications', icon: 'books'}
 - {name: 'tools', url: '/tools', icon: 'bow'}
+- {name: 'collaborations', url: '/collaborations', icon: 'shield'}
 - {name: 'PI', url: '/pi', icon: 'viking-helmet'}
 - {name: 'contact', url: '/contact', icon: 'horn'}
 
@@ -193,6 +194,18 @@ people_alumni:
   department: 'Genetics and Bioengineering', institution: 'Izmir University of Economics',
   institution_address: '',
   email: "", url: '', current_position: 'MSc Student at Istanbul Technical University'}
+
+# Collaborators page. url is optional; without it the entry is shown unlinked.
+collaborators:
+- {name: "Prof. Dr. Malgorzata A. Garstka", institution: "Xi'an Jiaotong University", country: 'China'}
+- {name: "Prof. Dr. Asuman Demiroğlu Zergeroğlu", institution: "Gebze Technical University", country: 'Türkiye'}
+- {name: "Prof. Dr. Uygar Tazebay", institution: "Gebze Technical University", country: 'Türkiye'}
+- {name: "Prof. Dr. Pemra Özbek", institution: "Marmara University", country: 'Türkiye'}
+- {name: "Dr. Gonzalo Parra", institution: "Barcelona Supercomputing Center", country: 'Spain'}
+- {name: "Prof. Dr. Günay Yetik Anacak", institution: "Acıbadem University", country: 'Türkiye'}
+- {name: "Prof. Dr. Tunahan Çakır", institution: "Gebze Technical University", country: 'Türkiye'}
+- {name: "Assoc. Prof. Dr. Pınar Pir", institution: "Gebze Technical University", country: 'Türkiye'}
+- {name: "Prof. Dr. Barış Binay", institution: "Gebze Technical University", country: 'Türkiye'}
 
 social:
 - {icon: 'github', link: 'https://github.com/costbio'}
