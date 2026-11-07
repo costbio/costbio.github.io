@@ -14,4 +14,4 @@ Our research spans three main areas:
 
 Although we are a purely computational research group, we frequently collaborate with both computational and experimental groups to bridge computational predictions with wet-lab validation and to tackle complex problems from multiple angles.
 
-Interested in collaboration or joining our group? Contact Dr. Onur Serçinoğlu at [osercinoglu@gtu.edu.tr](mailto:osercinoglu@gtu.edu.tr).
+Due to limited capacity, we are currently considering only **PhD candidates**. Prospective PhD students can reach Dr. Onur Serçinoğlu at osercinoglu [at] gtu [dot] edu [dot] tr. Thank you for your understanding.
